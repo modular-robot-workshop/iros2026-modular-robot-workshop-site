@@ -1,0 +1,122 @@
+{
+  "heroKicker": "In conjunction with IEEE/RSJ IROS 2026",
+  "title": "Modular Robot Workshop",
+  "subtitle": "Resilient embodiment, adaptive morphology, and scalable intelligence for modular robotic systems.",
+  "eventDateDisplay": "October 2026 (final date to be confirmed by IROS 2026)",
+  "workshopDateIso": "2026-10-15T09:00:00+09:00",
+  "countdownFallback": "Set a confirmed date in workshopDateIso once IROS 2026 schedule is finalized.",
+  "location": "IROS 2026 venue (city to be updated)",
+  "format": "In-person + livestream",
+  "submitUrl": "#",
+  "mailingListUrl": "#",
+  "contactEmail": "iros2026-modular-workshop@yourlab.edu",
+  "overview": "This workshop brings together researchers and practitioners working on modular robots across design, planning, control, and learning. We focus on systems that can reconfigure morphology and behavior to handle uncertainty, varying tasks, and deployment constraints. The event aims to connect embodied intelligence research with real-world fielded platforms.",
+  "cfpIntro": "We invite extended abstracts, demonstrations, and position papers on theory, systems, and applications of modular robotics. Interdisciplinary work is especially encouraged.",
+  "topics": [
+    "Self-reconfigurable robot architectures",
+    "Morphology-aware planning and control",
+    "Foundation models for modular systems",
+    "Task and environment adaptation",
+    "Hardware-software co-design",
+    "Swarm-modular hybrid platforms",
+    "Benchmarking and reproducibility",
+    "Industrial, medical, and field deployments"
+  ],
+  "keyDates": [
+    {
+      "label": "Call for Contributions Opens",
+      "date": "July 20, 2026",
+      "note": "Website and submission form go live"
+    },
+    {
+      "label": "Submission Deadline",
+      "date": "August 15, 2026",
+      "note": "11:59 PM AoE"
+    },
+    {
+      "label": "Acceptance Notification",
+      "date": "September 5, 2026",
+      "note": "Rolling notifications may apply"
+    },
+    {
+      "label": "Camera-ready Materials",
+      "date": "September 20, 2026",
+      "note": "Slides and optional 2-page summary"
+    },
+    {
+      "label": "Workshop Day",
+      "date": "October 2026 (TBD)",
+      "note": "Exact date follows official IROS program"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "09:00",
+      "title": "Opening and Vision",
+      "description": "Workshop goals, challenge statements, and session framing.",
+      "speaker": "Organizing committee"
+    },
+    {
+      "time": "09:30",
+      "title": "Keynote 1",
+      "description": "Embodiment and reconfiguration at scale.",
+      "speaker": "TBD"
+    },
+    {
+      "time": "10:30",
+      "title": "Contributed Talks",
+      "description": "Selected papers and short spotlight presentations.",
+      "speaker": "Accepted authors"
+    },
+    {
+      "time": "12:00",
+      "title": "Poster + Demo Session",
+      "description": "Interactive session with prototypes and videos.",
+      "speaker": "All participants"
+    },
+    {
+      "time": "14:00",
+      "title": "Panel Discussion",
+      "description": "From lab demonstrations to reliable deployment.",
+      "speaker": "Invited experts"
+    },
+    {
+      "time": "15:30",
+      "title": "Roadmap Session",
+      "description": "Community priorities and shared benchmark planning.",
+      "speaker": "Organizers + attendees"
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Your Name",
+      "affiliation": "Your University / Institute",
+      "role": "General Chair"
+    },
+    {
+      "name": "Co-Organizer Name",
+      "affiliation": "Partner Lab / Company",
+      "role": "Program Chair"
+    },
+    {
+      "name": "Co-Organizer Name",
+      "affiliation": "Partner Lab / Company",
+      "role": "Publications and Web"
+    }
+  ],
+  "venueText": "Travel details will be aligned with the official IROS 2026 conference information. Update this section with room assignment, accessibility notes, visa guidance, and local transit once published.",
+  "faq": [
+    {
+      "q": "Do I need a full paper to participate?",
+      "a": "No. We welcome extended abstracts, position pieces, demos, and already-published work with clear relevance to modular robotics."
+    },
+    {
+      "q": "Will there be remote participation?",
+      "a": "The current plan is hybrid. Final instructions for remote presenters will be posted once the platform is confirmed."
+    },
+    {
+      "q": "Can industry teams submit?",
+      "a": "Yes. We strongly encourage industrial contributions, especially real deployment case studies and open benchmark datasets."
+    }
+  ]
+}
