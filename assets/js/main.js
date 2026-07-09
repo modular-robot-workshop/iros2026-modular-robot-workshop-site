@@ -39,48 +39,6 @@ function makeCard(title, body = "", extra = "") {
   return card;
 }
 
-function makePhotoCard(item) {
-  const card = document.createElement("article");
-  card.className = "photo-card";
-
-  const image = document.createElement("img");
-  image.src = item.src;
-  image.alt = item.alt || item.title || "Workshop photo";
-  image.loading = "lazy";
-  image.decoding = "async";
-  card.appendChild(image);
-
-  const body = document.createElement("div");
-  body.className = "photo-body";
-
-  const title = document.createElement("h3");
-  title.textContent = item.title || "Photo";
-  body.appendChild(title);
-
-  if (item.description) {
-    const description = document.createElement("p");
-    description.textContent = item.description;
-    body.appendChild(description);
-  }
-
-  if (item.creditLabel && item.creditUrl) {
-    const credit = document.createElement("p");
-    credit.className = "photo-credit";
-
-    const anchor = document.createElement("a");
-    anchor.href = item.creditUrl;
-    anchor.textContent = item.creditLabel;
-    anchor.target = "_blank";
-    anchor.rel = "noopener noreferrer";
-
-    credit.appendChild(anchor);
-    body.appendChild(credit);
-  }
-
-  card.appendChild(body);
-  return card;
-}
-
 function renderCards(containerId, items, renderer) {
   const container = byId(containerId);
   if (!container || !Array.isArray(items)) {
@@ -156,7 +114,6 @@ function renderData(data) {
   setText("venue-text", data.venueText);
 
   renderCards("focus-list", data.focusAreas, (item) => makeCard(item.title, item.description));
-  renderCards("photo-list", data.photos, (item) => makePhotoCard(item));
 
   renderSimpleList("topics-list", data.topics);
 

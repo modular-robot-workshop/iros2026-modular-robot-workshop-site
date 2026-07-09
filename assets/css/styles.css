@@ -186,46 +186,6 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.photo-grid {
-  margin-top: 0.6rem;
-  display: grid;
-  gap: 0.9rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.photo-card {
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.photo-card img {
-  width: 100%;
-  display: block;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-bottom: 1px solid var(--line);
-}
-
-.photo-body {
-  padding: 0.75rem 0.9rem 0.9rem;
-}
-
-.photo-body h3 {
-  margin: 0;
-}
-
-.photo-body p {
-  margin: 0.45rem 0 0;
-  color: var(--ink-soft);
-}
-
-.photo-credit {
-  font-size: 0.85rem;
-}
-
 .card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
