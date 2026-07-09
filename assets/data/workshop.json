@@ -1,89 +1,147 @@
 {
-  "heroKicker": "In conjunction with IEEE/RSJ IROS 2026",
+  "heroKicker": "IEEE/RSJ IROS 2026 Workshop",
   "title": "Modular Robot Workshop",
-  "subtitle": "Resilient embodiment, adaptive morphology, and scalable intelligence for modular robotic systems.",
-  "eventDateDisplay": "October 2026 (final date to be confirmed by IROS 2026)",
-  "workshopDateIso": "2026-10-15T09:00:00+09:00",
-  "countdownFallback": "Set a confirmed date in workshopDateIso once IROS 2026 schedule is finalized.",
-  "location": "IROS 2026 venue (city to be updated)",
-  "format": "In-person + livestream",
+  "subtitle": "From reconfigurable hardware to robust autonomy: methods and systems for modular robots in real environments.",
+  "eventDateDisplay": "October 2026 (final date pending IROS schedule)",
+  "location": "IROS 2026 main venue (room to be announced)",
+  "format": "In-person with remote streaming",
   "submitUrl": "#",
   "mailingListUrl": "#",
   "contactEmail": "iros2026-modular-workshop@yourlab.edu",
-  "overview": "This workshop brings together researchers and practitioners working on modular robots across design, planning, control, and learning. We focus on systems that can reconfigure morphology and behavior to handle uncertainty, varying tasks, and deployment constraints. The event aims to connect embodied intelligence research with real-world fielded platforms.",
-  "cfpIntro": "We invite extended abstracts, demonstrations, and position papers on theory, systems, and applications of modular robotics. Interdisciplinary work is especially encouraged.",
+  "overview": "This workshop targets a specific question: how do we build modular robots that move beyond lab demos into reliable operation? We focus on methods that connect morphology, planning, control, and learning under realistic uncertainty, hardware limits, and deployment constraints.",
+  "focusAreas": [
+    {
+      "title": "Embodiment and Morphology",
+      "description": "Design principles for self-reconfigurable structures, docking interfaces, and morphology-aware dynamics."
+    },
+    {
+      "title": "Planning and Control",
+      "description": "Task-level and motion-level methods that adapt to changing robot topology and environment geometry."
+    },
+    {
+      "title": "Learning and Generalization",
+      "description": "Policies and representations that transfer across module counts, layouts, and task families."
+    },
+    {
+      "title": "Systems and Deployment",
+      "description": "Benchmarking, reproducibility, safety, and industrial or fielded case studies."
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/images/modular-robot.jpg",
+      "alt": "Modular robot blocks shown in a lab environment.",
+      "title": "Modular Robot Example",
+      "description": "Example of a modular robot platform demonstrating reconfigurable hardware concepts.",
+      "creditLabel": "Photo by mollystevens (CC BY-SA 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/51951260@N00/3428260488"
+    },
+    {
+      "src": "assets/images/iros-scene.jpg",
+      "alt": "Conference scene from an IROS-related robotics event.",
+      "title": "IROS-Related Conference Scene",
+      "description": "Reference conference image for the IROS 2026 workshop page context.",
+      "creditLabel": "Photo by LGEPR (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/32985045@N08/49031504512"
+    }
+  ],
+  "cfpIntro": "We invite contributions with clear technical scope and practical relevance. Both early-stage ideas and mature systems are welcome if methods and limitations are explicitly described.",
   "topics": [
-    "Self-reconfigurable robot architectures",
-    "Morphology-aware planning and control",
-    "Foundation models for modular systems",
-    "Task and environment adaptation",
-    "Hardware-software co-design",
-    "Swarm-modular hybrid platforms",
-    "Benchmarking and reproducibility",
-    "Industrial, medical, and field deployments"
+    "Self-reconfiguration algorithms",
+    "Topology-aware trajectory optimization",
+    "Composable low-level controllers",
+    "Morphology-conditioned policy learning",
+    "Sim-to-real transfer for modular platforms",
+    "Perception for module-level state estimation",
+    "Safety constraints and certification",
+    "Open benchmarks and datasets"
+  ],
+  "submissionTypes": [
+    {
+      "type": "Extended Abstract",
+      "requirement": "2 pages (excluding references), PDF format.",
+      "note": "Should state problem, approach, and expected evaluation."
+    },
+    {
+      "type": "Demo Proposal",
+      "requirement": "1 page plus a 2-3 minute video link.",
+      "note": "Include hardware setup, space needs, and safety notes."
+    },
+    {
+      "type": "Position Paper",
+      "requirement": "2 pages (excluding references), argument-focused.",
+      "note": "Must identify open challenges and concrete future directions."
+    }
+  ],
+  "reviewCriteria": [
+    "Relevance to modular robotics and workshop scope",
+    "Technical clarity and methodological soundness",
+    "Novelty, insight, or practical deployment value",
+    "Quality of evaluation plan or empirical evidence",
+    "Potential to stimulate discussion across communities"
   ],
   "keyDates": [
     {
-      "label": "Call for Contributions Opens",
+      "label": "Submission Site Opens",
       "date": "July 20, 2026",
-      "note": "Website and submission form go live"
+      "note": "Templates and formatting rules published."
     },
     {
       "label": "Submission Deadline",
-      "date": "August 15, 2026",
-      "note": "11:59 PM AoE"
+      "date": "August 15, 2026 (11:59 PM AoE)",
+      "note": "No extension is currently planned."
     },
     {
-      "label": "Acceptance Notification",
+      "label": "Notification to Authors",
       "date": "September 5, 2026",
-      "note": "Rolling notifications may apply"
+      "note": "Decisions sent by email."
     },
     {
-      "label": "Camera-ready Materials",
+      "label": "Final Materials Due",
       "date": "September 20, 2026",
-      "note": "Slides and optional 2-page summary"
+      "note": "Camera-ready slides and optional handout."
     },
     {
       "label": "Workshop Day",
-      "date": "October 2026 (TBD)",
-      "note": "Exact date follows official IROS program"
+      "date": "October 2026 (TBD by IROS)",
+      "note": "Exact date and room announced after final conference schedule."
     }
   ],
   "schedule": [
     {
       "time": "09:00",
-      "title": "Opening and Vision",
-      "description": "Workshop goals, challenge statements, and session framing.",
+      "title": "Opening Remarks",
+      "description": "Scope, goals, and expected outcomes for the day.",
       "speaker": "Organizing committee"
     },
     {
-      "time": "09:30",
-      "title": "Keynote 1",
-      "description": "Embodiment and reconfiguration at scale.",
+      "time": "09:20",
+      "title": "Keynote Session",
+      "description": "Invited talk on scalable modular robot systems.",
       "speaker": "TBD"
     },
     {
       "time": "10:30",
       "title": "Contributed Talks",
-      "description": "Selected papers and short spotlight presentations.",
+      "description": "Selected technical talks from accepted submissions.",
       "speaker": "Accepted authors"
     },
     {
       "time": "12:00",
-      "title": "Poster + Demo Session",
-      "description": "Interactive session with prototypes and videos.",
+      "title": "Poster and Demo Session",
+      "description": "Interactive discussion with demos and posters.",
       "speaker": "All participants"
     },
     {
       "time": "14:00",
-      "title": "Panel Discussion",
-      "description": "From lab demonstrations to reliable deployment.",
-      "speaker": "Invited experts"
+      "title": "Panel",
+      "description": "Bridging research prototypes and deployable platforms.",
+      "speaker": "Academic + industry speakers"
     },
     {
       "time": "15:30",
-      "title": "Roadmap Session",
-      "description": "Community priorities and shared benchmark planning.",
+      "title": "Community Roadmap",
+      "description": "Shared challenges, benchmark plans, and collaboration actions.",
       "speaker": "Organizers + attendees"
     }
   ],
@@ -95,28 +153,14 @@
     },
     {
       "name": "Co-Organizer Name",
-      "affiliation": "Partner Lab / Company",
+      "affiliation": "Partner University / Lab",
       "role": "Program Chair"
     },
     {
       "name": "Co-Organizer Name",
-      "affiliation": "Partner Lab / Company",
-      "role": "Publications and Web"
+      "affiliation": "Industry / Research Lab",
+      "role": "Web and Publications Chair"
     }
   ],
-  "venueText": "Travel details will be aligned with the official IROS 2026 conference information. Update this section with room assignment, accessibility notes, visa guidance, and local transit once published.",
-  "faq": [
-    {
-      "q": "Do I need a full paper to participate?",
-      "a": "No. We welcome extended abstracts, position pieces, demos, and already-published work with clear relevance to modular robotics."
-    },
-    {
-      "q": "Will there be remote participation?",
-      "a": "The current plan is hybrid. Final instructions for remote presenters will be posted once the platform is confirmed."
-    },
-    {
-      "q": "Can industry teams submit?",
-      "a": "Yes. We strongly encourage industrial contributions, especially real deployment case studies and open benchmark datasets."
-    }
-  ]
+  "venueText": "Venue room, visa letter instructions, and travel details will be synchronized with the official IROS 2026 conference website once released."
 }

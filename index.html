@@ -5,31 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="IROS 2026 Modular Robot Workshop: resilient embodiment, adaptive morphology, and learning for modular robotic systems."
+      content="IROS 2026 Modular Robot Workshop website with clear scope, submission requirements, and timeline."
     />
     <title>Modular Robot Workshop | IROS 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script defer src="assets/js/main.js"></script>
   </head>
   <body>
-    <div class="bg-orb orb-1" aria-hidden="true"></div>
-    <div class="bg-orb orb-2" aria-hidden="true"></div>
-
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#top">IROS 2026 Workshop</a>
+        <a class="brand" href="#top">IROS 2026 Modular Workshop</a>
         <nav aria-label="Primary">
           <ul class="nav-links">
             <li><a href="#overview">Overview</a></li>
-            <li><a href="#dates">Important Dates</a></li>
-            <li><a href="#cfp">Call for Contributions</a></li>
-            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#cfp">Call</a></li>
+            <li><a href="#dates">Dates</a></li>
+            <li><a href="#program">Program</a></li>
             <li><a href="#organizers">Organizers</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -39,73 +37,87 @@
 
     <main id="top">
       <section class="hero container reveal">
-        <p class="kicker" id="hero-kicker">Workshop at IROS 2026</p>
+        <p class="kicker" id="hero-kicker">IROS 2026 Workshop</p>
         <h1 id="title">Modular Robot Workshop</h1>
         <p class="hero-subtitle" id="subtitle">
-          Resilient embodiment, adaptive morphology, and scalable intelligence.
+          Structure, intelligence, and deployment for reconfigurable robotic systems.
         </p>
+
         <div class="hero-meta" role="list" aria-label="Event details">
-          <div role="listitem">
-            <span class="meta-label">Date</span>
+          <div class="meta-item" role="listitem">
+            <span>Date</span>
             <strong id="event-date">TBD</strong>
           </div>
-          <div role="listitem">
-            <span class="meta-label">Location</span>
+          <div class="meta-item" role="listitem">
+            <span>Location</span>
             <strong id="event-location">TBD</strong>
           </div>
-          <div role="listitem">
-            <span class="meta-label">Format</span>
-            <strong id="event-format">Hybrid</strong>
+          <div class="meta-item" role="listitem">
+            <span>Format</span>
+            <strong id="event-format">In-person</strong>
           </div>
         </div>
+
         <div class="cta-row">
-          <a id="submit-link" class="btn btn-primary" href="#">Submit Contribution</a>
-          <a id="mailing-link" class="btn btn-secondary" href="#">Join Mailing List</a>
+          <a id="submit-link" class="btn btn-primary" href="#">Submission Portal</a>
+          <a id="mailing-link" class="btn btn-secondary" href="#">Mailing List</a>
         </div>
-        <p class="countdown" id="countdown" aria-live="polite">Countdown loading…</p>
       </section>
 
       <section id="overview" class="section container reveal">
-        <h2>Overview</h2>
+        <h2>Workshop Overview</h2>
         <p id="overview-text"></p>
+        <div id="focus-list" class="cards-grid"></div>
       </section>
 
-      <section id="dates" class="section container reveal">
-        <h2>Important Dates</h2>
-        <p class="section-note">All deadlines are AoE unless noted otherwise.</p>
-        <div id="dates-list" class="cards-grid" aria-live="polite"></div>
+      <section id="photos" class="section container reveal">
+        <h2>Photo Highlights</h2>
+        <p class="section-note">Visual context for modular robotics and IROS-related events.</p>
+        <div id="photo-list" class="photo-grid"></div>
+        <p class="section-note">
+          Photo attributions are listed in <a href="PHOTO_CREDITS.md">PHOTO_CREDITS.md</a>.
+        </p>
       </section>
 
       <section id="cfp" class="section container reveal">
         <h2>Call for Contributions</h2>
         <p id="cfp-intro"></p>
-        <ul id="topics-list" class="topic-list"></ul>
+
+        <h3 class="subheading">Topics</h3>
+        <ul id="topics-list" class="tag-list"></ul>
+
+        <h3 class="subheading">Submission Types</h3>
+        <div id="submission-list" class="cards-grid"></div>
+
+        <h3 class="subheading">Review Criteria</h3>
+        <ul id="criteria-list" class="plain-list"></ul>
       </section>
 
-      <section id="schedule" class="section container reveal">
-        <h2>Program Snapshot</h2>
+      <section id="dates" class="section container reveal">
+        <h2>Important Dates</h2>
+        <p class="section-note">All deadlines are in AoE (UTC-12).</p>
+        <div id="dates-list" class="cards-grid"></div>
+      </section>
+
+      <section id="program" class="section container reveal">
+        <h2>Program Structure</h2>
         <div id="schedule-list" class="cards-grid"></div>
       </section>
 
       <section id="organizers" class="section container reveal">
-        <h2>Organizers</h2>
+        <h2>Organizing Committee</h2>
         <div id="organizer-list" class="cards-grid organizer-grid"></div>
       </section>
 
       <section id="venue" class="section container reveal">
-        <h2>Venue and Travel</h2>
+        <h2>Venue and Logistics</h2>
         <p id="venue-text"></p>
-      </section>
-
-      <section id="faq" class="section container reveal">
-        <h2>FAQ</h2>
-        <div id="faq-list" class="faq-list"></div>
       </section>
 
       <section id="contact" class="section container reveal">
         <h2>Contact</h2>
         <p>
-          Questions? Reach us at
+          For questions about submissions or speaking slots, email
           <a id="contact-email" href="mailto:workshop@example.com">workshop@example.com</a>
         </p>
       </section>
@@ -114,10 +126,10 @@
     <footer class="site-footer">
       <div class="container footer-wrap">
         <p>
-          <strong>Modular Robot Workshop at IROS 2026</strong>
+          <strong>Modular Robot Workshop @ IROS 2026</strong>
           <span id="copyright-year"></span>
         </p>
-        <p>Built as a static site for easy Git-based collaboration and GitHub Pages deploy.</p>
+        <p>Static website for Git-based collaboration and fast updates.</p>
       </div>
     </footer>
   </body>

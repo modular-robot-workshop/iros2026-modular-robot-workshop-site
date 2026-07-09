@@ -6,8 +6,10 @@ Static, Git-friendly workshop website scaffold.
 
 - `index.html` -> page structure
 - `assets/css/styles.css` -> visual design and responsive layout
-- `assets/js/main.js` -> rendering logic and countdown
+- `assets/js/main.js` -> rendering logic for sections and photo cards
 - `assets/data/workshop.json` -> all editable workshop content
+- `assets/images/` -> local photo assets
+- `PHOTO_CREDITS.md` -> attribution and license details
 
 ## Edit Content Quickly
 
@@ -15,7 +17,7 @@ Update `assets/data/workshop.json` for:
 
 - title, date, location
 - submission/mailing links
-- topics, schedule, organizers, FAQ
+- topics, submission types, review criteria, schedule, organizers
 - contact email
 
 ## Run Locally
