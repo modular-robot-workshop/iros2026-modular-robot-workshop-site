@@ -1,80 +1,62 @@
 {
   "heroKicker": "IEEE/RSJ IROS 2026 Workshop",
-  "title": "Modular Robots: Toward Field-capable, Intelligent Systems",
-  "subtitle": "From reconfigurable hardware to robust autonomy: methods and systems for modular robots in real-world environments.",
+  "title": "2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots",
+  "subtitle": "From design concepts to practical deployment: connecting modular robot hardware, planning, control, and learning with real-world applications.",
   "eventDateDisplay": "September 27, 2026 (IROS workshop day, pending final conference schedule)",
   "location": "IROS 2026, Pittsburgh, PA, USA (room to be announced)",
-  "format": "In-person with remote streaming",
+  "format": "In-person",
   "submitUrl": "#",
   "mailingListUrl": "#",
-  "contactEmail": "iros2026-modular-workshop@yourlab.edu",
-  "overview": "This workshop addresses a central challenge in modular robotics: how can we move from impressive lab prototypes to reliable, field-capable systems? We focus on methods that tightly connect morphology, planning, control, perception, and learning under realistic uncertainty, hardware constraints, and deployment requirements.",
+  "contactEmail": "maolin.lei@outlook.com",
+  "overview": "Modular reconfigurable robots (MRRs) offer a promising route toward adaptable robotic systems that can change morphology, workspace, and function to meet task and environmental demands. Recent advances in compliant mechanisms, soft modular structures, self-reconfiguration, task-driven morphology design, and learning-enabled control have expanded the scope of MRRs from laboratory prototypes to emerging real-world applications in construction, inspection, logistics, environmental monitoring, and search-and-rescue. Building on our IROS 2025 workshop on reconfigurable modular robots, this second edition focuses on the challenges and opportunities of taking modular robots from design concepts to practical deployment, bringing together researchers from robot design, control, planning, soft robotics, multi-robot systems, and application domains through invited talks, poster spotlights, live demonstrations, and a moderated panel discussion.",
   "focusAreas": [
     {
-      "title": "Embodiment and Morphology",
-      "description": "Design principles for self-reconfigurable structures, docking interfaces, and morphology-aware dynamics."
+      "title": "Modular Design and Embodiment",
+      "description": "Versatility and adaptability of modular reconfigurable robots, from compliant mechanisms and soft modular structures to self-reconfiguration."
     },
     {
-      "title": "Planning and Control",
-      "description": "Task-level and motion-level methods that adapt to changing robot topology and environment geometry."
+      "title": "Technological Advancements",
+      "description": "Novel materials, advanced control systems, and deployment-oriented design that improve modular robot performance and functionality."
     },
     {
-      "title": "Learning and Generalization",
-      "description": "Policies and representations that transfer across module counts, layouts, and task families."
+      "title": "Real-World Deployment and Benchmarking",
+      "description": "Reliability, benchmarking, task-driven morphology design, and system integration across different modular robotic paradigms."
     },
     {
-      "title": "Systems and Deployment",
-      "description": "Benchmarking, reproducibility, safety, and industrial or fielded case studies."
+      "title": "Industry and Community Collaboration",
+      "description": "A platform connecting academia, industry, and technology developers to share insights and identify future collaboration opportunities."
     }
   ],
-  "photos": [
-    {
-      "src": "assets/images/modular-robot.jpg",
-      "alt": "Modular robot blocks shown in a lab environment.",
-      "title": "Modular Robot Example",
-      "description": "Example of a modular robot platform demonstrating reconfigurable hardware concepts.",
-      "creditLabel": "Photo by mollystevens (CC BY-SA 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/51951260@N00/3428260488"
-    },
-    {
-      "src": "assets/images/iros-scene.jpg",
-      "alt": "Conference scene from an IROS-related robotics event.",
-      "title": "IROS-Related Conference Scene",
-      "description": "Reference conference image for the IROS 2026 workshop page context.",
-      "creditLabel": "Photo by LGEPR (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/32985045@N08/49031504512"
-    }
-  ],
-  "cfpIntro": "We invite contributions on theory, methods, and systems for modular robots, including both mature deployments and well-scoped early-stage ideas. We especially encourage submissions that clearly state assumptions, limitations, and expected real-world impact.",
+  "cfpIntro": "We invite contributions on theory, methods, and systems for modular reconfigurable robots, including both mature deployments and well-scoped early-stage ideas. Extended abstracts, position papers, and poster/demo proposals are all welcome, especially submissions that bring or showcase live modular robot hardware and clearly state assumptions, limitations, and expected real-world impact.",
   "topics": [
     "Self-reconfiguration and morphology planning",
-    "Topology-aware motion planning and trajectory optimization",
-    "Composable low-level control and fault tolerance",
-    "Morphology-conditioned learning and transfer",
+    "Compliant mechanisms and soft modular structures",
+    "Task-driven morphology design",
+    "Topology-aware motion planning and control",
+    "Learning-enabled and morphology-conditioned control",
     "Perception and state estimation for modular assemblies",
-    "Sim-to-real transfer and system identification",
-    "Field deployment, reliability, and safety",
-    "Open datasets, benchmarks, and reproducibility"
+    "Benchmarking, reliability, and reproducibility",
+    "Field deployment: construction, inspection, logistics, environmental monitoring, search-and-rescue"
   ],
   "submissionTypes": [
+    {
+      "type": "Poster + Demo Proposal",
+      "requirement": "1-page summary plus an optional 2-3 minute video link.",
+      "note": "Include hardware setup, floor-space requirements, and safety notes; live modular robot demos are encouraged."
+    },
     {
       "type": "Extended Abstract",
       "requirement": "2 pages (excluding references), PDF format.",
       "note": "State problem, method, evaluation plan, and limitations."
     },
     {
-      "type": "Poster + Demo Proposal",
-      "requirement": "1 page summary plus a 2-3 minute video link (optional but encouraged).",
-      "note": "Include hardware setup, floor-space requirements, and safety notes."
-    },
-    {
       "type": "Position Paper",
       "requirement": "2 pages (excluding references), perspective-focused.",
-      "note": "Identify open technical bottlenecks and concrete community directions."
+      "note": "Identify open technical bottlenecks and concrete community directions for real-world deployment."
     }
   ],
   "reviewCriteria": [
-    "Relevance to modular robotics and workshop scope",
+    "Relevance to modular reconfigurable robots and workshop scope",
     "Technical clarity and methodological soundness",
     "Novelty, insight, or practical deployment relevance",
     "Quality of evidence, evaluation design, or system validation",
@@ -83,27 +65,27 @@
   "keyDates": [
     {
       "label": "Submission Site Opens",
-      "date": "July 10, 2026",
+      "date": "July 21, 2026",
       "note": "Templates, topics, and submission instructions published."
     },
     {
       "label": "Early-Bird Submission Deadline",
-      "date": "July 20, 2026 (11:59 PM AoE)",
+      "date": "August 3, 2026 (11:59 PM AoE)",
       "note": "Early decisions targeted before major registration deadlines."
     },
     {
       "label": "Early-Bird Notification",
-      "date": "July 24, 2026",
+      "date": "August 7, 2026",
       "note": "Decisions sent by email."
     },
     {
       "label": "Regular Submission Deadline",
-      "date": "August 17, 2026 (11:59 PM AoE)",
+      "date": "August 24, 2026 (11:59 PM AoE)",
       "note": "Poster and demo submissions remain welcome."
     },
     {
       "label": "Regular Notification",
-      "date": "August 24, 2026",
+      "date": "August 31, 2026",
       "note": "Final acceptance decisions sent by email."
     },
     {
@@ -119,82 +101,151 @@
   ],
   "schedule": [
     {
-      "time": "08:30-08:40",
+      "time": "09:00-09:05",
       "title": "Opening Remarks",
-      "description": "Workshop scope, goals, and expected outcomes.",
+      "description": "Welcome and introduction to the workshop.",
       "speaker": "Organizing committee"
     },
     {
-      "time": "08:40-09:05",
+      "time": "09:05-09:35",
       "title": "Invited Talk I",
-      "description": "Modular embodiment strategies for robust locomotion and manipulation.",
-      "speaker": "Invited speaker (TBD)"
+      "description": "Modular embodiment and self-reconfiguration: from lab prototypes to deployable systems.",
+      "speaker": "Prof. Mark Yim, University of Pennsylvania"
     },
     {
-      "time": "09:05-09:30",
+      "time": "09:35-10:05",
       "title": "Invited Talk II",
-      "description": "Learning, adaptation, and transfer across modular morphologies.",
-      "speaker": "Invited speaker (TBD)"
+      "description": "Coordinating swarms of modular robots for practical, real-world tasks.",
+      "speaker": "Prof. David Saldana, Lehigh University"
     },
     {
-      "time": "09:30-10:10",
-      "title": "Invited Talk Block",
-      "description": "Three short invited talks on modeling, control, and system integration.",
-      "speaker": "Invited speakers"
+      "time": "10:05-10:35",
+      "title": "Invited Talk III",
+      "description": "Compliant actuation and mechatronic design for humanoid and hybrid modular platforms.",
+      "speaker": "Dr. Nikos Tsagarakis, Istituto Italiano di Tecnologia"
     },
     {
-      "time": "10:10-10:30",
-      "title": "Student Spotlight Talks",
-      "description": "Fast-paced spotlight presentations from student contributors.",
-      "speaker": "Selected student authors"
-    },
-    {
-      "time": "10:30-11:00",
+      "time": "10:35-10:55",
       "title": "Coffee Break",
       "description": "Networking and informal technical discussions.",
       "speaker": ""
     },
     {
-      "time": "11:00-11:30",
+      "time": "10:55-11:25",
+      "title": "Invited Talk IV",
+      "description": "Evolving and growing embodied intelligence in modular and biological systems.",
+      "speaker": "Prof. Sam Kriegman, Northwestern University"
+    },
+    {
+      "time": "11:25-12:00",
+      "title": "Poster Spotlight",
+      "description": "Fast-paced spotlight presentations from student and early-career contributors.",
+      "speaker": "Selected authors"
+    },
+    {
+      "time": "12:00-13:30",
+      "title": "Lunch Break",
+      "description": "",
+      "speaker": ""
+    },
+    {
+      "time": "13:30-14:30",
       "title": "Live Demo + Poster Session",
-      "description": "Interactive demos and poster discussions with presenters.",
+      "description": "Hands-on demonstrations and interactive poster discussions with presenters.",
       "speaker": "All accepted contributors"
     },
     {
-      "time": "11:30-11:55",
-      "title": "Invited Talk III",
-      "description": "Field deployment lessons from research and industry.",
-      "speaker": "Invited speaker (TBD)"
-    },
-    {
-      "time": "11:55-12:20",
+      "time": "14:30-15:15",
       "title": "Panel Discussion",
-      "description": "From prototypes to deployable systems: bottlenecks and opportunities.",
-      "speaker": "Academic and industry panelists"
+      "description": "From prototypes to deployable systems: bottlenecks and opportunities in modular robotics.",
+      "speaker": "Invited speakers and organizers"
     },
     {
-      "time": "12:20-12:30",
+      "time": "15:15-15:30",
       "title": "Community Roadmap + Closing",
       "description": "Action items on benchmarks, open-source efforts, and collaborations.",
-      "speaker": "Organizers + attendees"
+      "speaker": "Organizers and attendees"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Prof. Mark Yim",
+      "title": "Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
+      "affiliation": "University of Pennsylvania, USA",
+      "bio": "A pioneer of self-reconfiguring modular robots, Prof. Yim is a Fellow of the National Academy of Inventors and an IEEE Fellow. He brings senior leadership and long-term perspective to the workshop.",
+      "photo": "assets/images/speakers/mark-yim.jpg",
+      "url": "https://www.grasp.upenn.edu/people/mark-yim/"
+    },
+    {
+      "name": "Prof. David Saldana",
+      "title": "Associate Professor, Department of Computer Science and Engineering",
+      "affiliation": "Lehigh University, USA",
+      "bio": "Leads SwarmsLab, focusing on coordinating swarms of modular robots and aerial manipulation of flexible objects for real-world tasks. Recipient of an NSF CAREER Award.",
+      "photo": "assets/images/speakers/david-saldana.jpg",
+      "url": "https://davidsaldana.co/"
+    },
+    {
+      "name": "Dr. Nikos Tsagarakis",
+      "title": "Senior Researcher (Tenured), Principal Investigator, Humanoids and Human Centered Mechatronics (HHCM)",
+      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
+      "bio": "Leads the HHCM research line at IIT, developing compliant actuators and humanoid and hybrid robotic platforms spanning legged locomotion and autonomous manipulation.",
+      "photo": "assets/images/speakers/nikos-tsagarakis.jpg",
+      "url": "https://www.iit.it/en-US/people-details/-/people/nikos-tsagarakis"
+    },
+    {
+      "name": "Prof. Sam Kriegman",
+      "title": "Assistant Professor of Computer Science, Mechanical Engineering, and Chemical & Biological Engineering",
+      "affiliation": "Northwestern University, USA",
+      "bio": "Known for creating xenobots, the first AI-designed living organisms. AI2050 Fellow and Cozzarelli Prize recipient, researching general theories of embodied life and intelligence.",
+      "photo": "assets/images/speakers/sam-kriegman.jpg",
+      "url": "https://samkriegman.com/"
     }
   ],
   "organizers": [
     {
-      "name": "Your Name",
-      "affiliation": "Your University / Institute",
-      "role": "General Chair"
+      "name": "Dr. Maolin Lei",
+      "title": "Lead Organizer — Postdoc Researcher",
+      "affiliation": "The University of Tokyo, Japan",
+      "email": "maolin.lei@outlook.com"
     },
     {
-      "name": "Co-Organizer Name",
-      "affiliation": "Partner University / Lab",
-      "role": "Program Chair"
+      "name": "Dr. Luyang Zhao",
+      "title": "Co-Organizer — Assistant Professor, Electrical and Computer Engineering",
+      "affiliation": "Clemson University, USA",
+      "email": "luyangz@clemson.edu",
+      "url": "https://luyangzhao.github.io/"
     },
     {
-      "name": "Co-Organizer Name",
-      "affiliation": "Industry / Research Lab",
-      "role": "Web and Publications Chair"
+      "name": "Edoardo Romiti",
+      "title": "Co-Organizer — Postdoctoral Researcher, Humanoids and Human Centered Mechatronics (HHCM)",
+      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy"
+    },
+    {
+      "name": "Dr. Nikos Tsagarakis",
+      "title": "Co-Organizer — Senior Researcher (Tenured), Humanoids and Human Centered Mechatronics (HHCM)",
+      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
+      "email": "nikos.tsagarakis@iit.it"
+    },
+    {
+      "name": "Dr. Tin Lun Lam",
+      "title": "Co-Organizer — Associate Professor",
+      "affiliation": "Chinese University of Hong Kong, Shenzhen, China",
+      "email": "tllam@cuhk.edu.cn",
+      "url": "https://sites.google.com/site/lamtinlun"
+    },
+    {
+      "name": "Nils Roede",
+      "title": "Co-Organizer — PhD Student, GRASP Lab / ModLab",
+      "affiliation": "University of Pennsylvania, USA",
+      "email": "roede@engineering.upenn.edu"
+    },
+    {
+      "name": "Prof. Mark Yim",
+      "title": "Advisor — Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
+      "affiliation": "University of Pennsylvania, USA",
+      "email": "yim@grasp.upenn.edu",
+      "url": "https://www.grasp.upenn.edu/people/mark-yim/"
     }
   ],
-  "venueText": "The final room assignment, visa-letter process, and travel details will be synchronized with the official IROS 2026 website. Program times are listed in EDT (UTC-4)."
+  "venueText": "The final room assignment, visa-letter process, and travel details will be synchronized with the official IROS 2026 website. The workshop requests tables for speakers with power access, two projectors and screens, a dedicated demo space for modular robot hardware, two additional monitors and desks for live demonstrations, wireless microphones for discussion, and poster boards for roughly 10 posters. Program times are listed in EDT (UTC-4)."
 }

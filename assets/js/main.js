@@ -39,6 +39,74 @@ function makeCard(title, body = "", extra = "") {
   return card;
 }
 
+function makePersonCard(person, { withPhoto = false } = {}) {
+  const card = document.createElement("article");
+  card.className = "card person-card";
+
+  if (withPhoto && person.photo) {
+    const img = document.createElement("img");
+    img.className = "person-photo";
+    img.src = person.photo;
+    img.alt = person.name;
+    img.loading = "lazy";
+    card.appendChild(img);
+  }
+
+  const heading = document.createElement("h3");
+  heading.textContent = person.name;
+  card.appendChild(heading);
+
+  if (person.title) {
+    const title = document.createElement("p");
+    title.className = "person-title";
+    title.textContent = person.title;
+    card.appendChild(title);
+  }
+
+  if (person.affiliation) {
+    const affiliation = document.createElement("p");
+    affiliation.className = "person-affiliation";
+    affiliation.textContent = person.affiliation;
+    card.appendChild(affiliation);
+  }
+
+  if (person.bio) {
+    const bio = document.createElement("p");
+    bio.className = "person-bio";
+    bio.textContent = person.bio;
+    card.appendChild(bio);
+  }
+
+  if (person.email || person.url) {
+    const links = document.createElement("p");
+    links.className = "person-links";
+
+    if (person.email) {
+      const emailLink = document.createElement("a");
+      emailLink.href = `mailto:${person.email}`;
+      emailLink.textContent = person.email;
+      links.appendChild(emailLink);
+    }
+
+    if (person.email && person.url) {
+      links.appendChild(document.createTextNode(" · "));
+    }
+
+    if (person.url) {
+      const profileLink = document.createElement("a");
+      profileLink.href = person.url;
+      profileLink.target = "_blank";
+      profileLink.rel = "noopener";
+      profileLink.textContent = "Profile";
+      links.appendChild(profileLink);
+    }
+
+    card.appendChild(links);
+  }
+
+  return card;
+}
+
 function renderCards(containerId, items, renderer) {
   const container = byId(containerId);
   if (!container || !Array.isArray(items)) {
@@ -129,9 +197,11 @@ function renderData(data) {
     makeCard(`${slot.time} - ${slot.title}`, slot.description, slot.speaker || "")
   );
 
-  renderCards("organizer-list", data.organizers, (person) =>
-    makeCard(person.name, person.affiliation, person.role)
+  renderCards("speaker-list", data.speakers, (person) =>
+    makePersonCard(person, { withPhoto: true })
   );
+
+  renderCards("organizer-list", data.organizers, (person) => makePersonCard(person));
 
   const emailNode = byId("contact-email");
   if (emailNode && data.contactEmail) {
