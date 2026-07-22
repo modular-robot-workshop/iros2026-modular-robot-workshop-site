@@ -35,7 +35,7 @@ p {
 }
 
 .container {
-  width: min(880px, calc(100% - 2.4rem));
+  width: min(1180px, calc(100% - 3.2rem));
   margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ h3 {
 #venue-text {
   margin: 0.9rem 0 0;
   color: var(--ink-soft);
-  max-width: 62ch;
+  max-width: 92ch;
   font-size: 1.02rem;
 }
 
@@ -219,7 +219,7 @@ h3 {
   margin: 0.5rem 0 0;
   color: var(--ink-soft);
   font-size: 0.92rem;
-  max-width: 62ch;
+  max-width: 92ch;
 }
 
 /* Content grids: minimal, no card chrome — plain text separated by hairlines */
@@ -229,6 +229,15 @@ h3 {
   display: grid;
   gap: 1.6rem 1.8rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.schedule-list {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.schedule-list .card {
+  padding: 1rem 0;
 }
 
 .card {
