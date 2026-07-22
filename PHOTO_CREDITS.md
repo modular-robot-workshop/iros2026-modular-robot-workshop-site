@@ -21,20 +21,32 @@ The following official faculty/profile headshots are used to identify confirmed 
 `assets/images/iros2026-pittsburgh-logo.png` — Official IROS 2026 (Pittsburgh) conference logo, used to identify the parent conference this workshop is part of.
 Source: https://2026.ieee-iros.org/
 
-## Modular Robot Photos
+## Speaker Robot Gallery
 
-The website includes two photos of real modular robot hardware, both from Wikimedia Commons:
+The website features a photo of each invited speaker's own robot, shown right after the hero section:
 
-1. `assets/images/flight-array.jpg`  
-   Title: The Distributed Flight Array (ETH Zürich)  
-   Creator: Raymond Oung (photo by Philipp Reist)  
-   Source: https://commons.wikimedia.org/wiki/File:The_Distributed_Flight_Array.jpg  
-   License: CC BY-SA 3.0  
-   License URL: https://creativecommons.org/licenses/by-sa/3.0/
-
-2. `assets/images/polybot-g3.jpg`  
+1. `assets/images/speaker-robot-yim.jpg`  
    Title: Polybot G3, modular self-reconfiguring robot at PARC  
    Creator: Mark Yim (invited speaker for this workshop)  
    Source: https://commons.wikimedia.org/wiki/File:G3dock.jpg  
    License: CC BY 2.5  
    License URL: https://creativecommons.org/licenses/by/2.5/
+
+2. `assets/images/speaker-robot-saldana.jpg`  
+   Title: Modular aerial robots cooperatively transporting a load  
+   Creator: David Saldaña's SwarmsLab, Lehigh University (invited speaker for this workshop)  
+   Source: https://swarmslab.com/  
+   Used with attribution to identify David Saldaña's research for this workshop; contact the lab for reuse terms.
+
+3. `assets/images/speaker-robot-tsagarakis.jpg`  
+   Title: CONCERT, a configurable collaborative mobile manipulation robot  
+   Creator: Nikos Tsagarakis's HHCM lab, Istituto Italiano di Tecnologia (invited speaker for this workshop)  
+   Source: https://hhcm.iit.it/robots  
+   Used with attribution to identify Nikos Tsagarakis's research for this workshop; contact IIT for reuse terms.
+
+4. `assets/images/speaker-robot-kriegman.jpg`  
+   Title: A xenobot, an AI-designed living organism  
+   Creator: Kriegman, Blackiston, Levin, Bongard (Sam Kriegman is an invited speaker for this workshop)  
+   Source: https://commons.wikimedia.org/wiki/File:Xenobot.jpg  
+   License: CC BY 4.0  
+   License URL: https://creativecommons.org/licenses/by/4.0/
