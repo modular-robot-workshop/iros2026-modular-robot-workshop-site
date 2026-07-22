@@ -98,6 +98,63 @@ p {
   padding: 4.5rem 0 3rem;
 }
 
+.banner-figure {
+  margin: 0 auto 3rem;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 32vw, 420px);
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.banner-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+}
+
+.banner-figure figcaption a {
+  color: var(--ink-soft);
+}
+
+.overview-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.overview-layout #overview-text {
+  flex: 1 1 380px;
+  min-width: 0;
+}
+
+.overview-figure {
+  flex: 0 0 220px;
+  min-width: 0;
+  margin: 0.9rem 0 0;
+}
+
+.overview-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.overview-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+}
+
+.overview-figure figcaption a {
+  color: var(--ink-soft);
+}
+
 .kicker {
   margin: 0;
   color: var(--ink-soft);
@@ -247,6 +304,11 @@ h3 {
 
 .card h3 {
   margin: 0;
+  min-height: 2.5rem;
+}
+
+.schedule-list .card h3 {
+  min-height: 0;
 }
 
 .card p {

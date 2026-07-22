@@ -21,20 +21,20 @@ The following official faculty/profile headshots are used to identify confirmed 
 `assets/images/iros2026-pittsburgh-logo.png` — Official IROS 2026 (Pittsburgh) conference logo, used to identify the parent conference this workshop is part of.
 Source: https://2026.ieee-iros.org/
 
-## Other Photos
+## Modular Robot Photos
 
-The website includes two photos under Creative Commons licenses:
+The website includes two photos of real modular robot hardware, both from Wikimedia Commons:
 
-1. `assets/images/modular-robot.jpg`  
-   Title: More modular robots  
-   Creator: mollystevens  
-   Source: https://www.flickr.com/photos/51951260@N00/3428260488  
-   License: CC BY-SA 2.0  
-   License URL: https://creativecommons.org/licenses/by-sa/2.0/
+1. `assets/images/flight-array.jpg`  
+   Title: The Distributed Flight Array (ETH Zürich)  
+   Creator: Raymond Oung (photo by Philipp Reist)  
+   Source: https://commons.wikimedia.org/wiki/File:The_Distributed_Flight_Array.jpg  
+   License: CC BY-SA 3.0  
+   License URL: https://creativecommons.org/licenses/by-sa/3.0/
 
-2. `assets/images/iros-scene.jpg`  
-   Title: 세계적 권위 로봇학회에서 미래 먹거리 ‘로봇 사업’ 알린다  
-   Creator: LGEPR  
-   Source: https://www.flickr.com/photos/32985045@N08/49031504512  
-   License: CC BY 2.0  
-   License URL: https://creativecommons.org/licenses/by/2.0/
+2. `assets/images/polybot-g3.jpg`  
+   Title: Polybot G3, modular self-reconfiguring robot at PARC  
+   Creator: Mark Yim (invited speaker for this workshop)  
+   Source: https://commons.wikimedia.org/wiki/File:G3dock.jpg  
+   License: CC BY 2.5  
+   License URL: https://creativecommons.org/licenses/by/2.5/
