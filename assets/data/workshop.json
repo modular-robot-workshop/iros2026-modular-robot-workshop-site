@@ -74,24 +74,14 @@
       "note": "Templates, topics, and submission instructions published."
     },
     {
-      "label": "Early-Bird Submission Deadline",
-      "date": "August 3, 2026 (11:59 PM AoE)",
-      "note": "Early decisions targeted before major registration deadlines."
+      "label": "Submission Deadline",
+      "date": "August 21, 2026 (11:59 PM AoE)",
+      "note": "One month to submit extended abstracts, position papers, and poster/demo proposals."
     },
     {
-      "label": "Early-Bird Notification",
-      "date": "August 7, 2026",
-      "note": "Decisions sent by email."
-    },
-    {
-      "label": "Regular Submission Deadline",
-      "date": "August 24, 2026 (11:59 PM AoE)",
-      "note": "Poster and demo submissions remain welcome."
-    },
-    {
-      "label": "Regular Notification",
-      "date": "August 31, 2026",
-      "note": "Final acceptance decisions sent by email."
+      "label": "Notification",
+      "date": "August 28, 2026",
+      "note": "Acceptance decisions sent by email."
     },
     {
       "label": "Final Materials Due",

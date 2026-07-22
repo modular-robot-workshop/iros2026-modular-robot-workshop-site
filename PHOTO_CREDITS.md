@@ -26,11 +26,10 @@ Source: https://2026.ieee-iros.org/
 The website features a photo of each invited speaker's own robot, shown right after the hero section:
 
 1. `assets/images/speaker-robot-yim.jpg`  
-   Title: Polybot G3, modular self-reconfiguring robot at PARC  
-   Creator: Mark Yim (invited speaker for this workshop)  
-   Source: https://commons.wikimedia.org/wiki/File:G3dock.jpg  
-   License: CC BY 2.5  
-   License URL: https://creativecommons.org/licenses/by/2.5/
+   Title: CHAMPS, a configurable, highly-articulated, multi-purpose modular snake manipulator (2026)  
+   Creator: Mark Yim's ModLab, University of Pennsylvania (invited speaker for this workshop)  
+   Source: https://www.modlabupenn.org/design-and-kinematics-of-champs-a-configurable-highly-articulated-multi-purpose-snake/  
+   Used with attribution to identify Mark Yim's most recent research for this workshop; contact ModLab for reuse terms.
 
 2. `assets/images/speaker-robot-saldana.jpg`  
    Title: Modular aerial robots cooperatively transporting a load  
@@ -39,9 +38,9 @@ The website features a photo of each invited speaker's own robot, shown right af
    Used with attribution to identify David Saldaña's research for this workshop; contact the lab for reuse terms.
 
 3. `assets/images/speaker-robot-tsagarakis.jpg`  
-   Title: CONCERT, a configurable collaborative mobile manipulation robot  
+   Title: CONCERT, a fully modular and reconfigurable mobile manipulation robot  
    Creator: Nikos Tsagarakis's HHCM lab, Istituto Italiano di Tecnologia (invited speaker for this workshop)  
-   Source: https://hhcm.iit.it/robots  
+   Source: https://opentalk.iit.it/en/construction-works-are-safer-and-less-demanding-with-robot-concert/  
    Used with attribution to identify Nikos Tsagarakis's research for this workshop; contact IIT for reuse terms.
 
 4. `assets/images/speaker-robot-kriegman.jpg`  
