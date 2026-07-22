@@ -167,7 +167,7 @@
       "name": "Prof. Mark Yim",
       "title": "Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
       "affiliation": "University of Pennsylvania, USA",
-      "bio": "A pioneer of self-reconfiguring modular robots, Prof. Yim is a Fellow of the National Academy of Inventors and an IEEE Fellow. He brings senior leadership and long-term perspective to the workshop.",
+      "bio": "A pioneer of self-reconfiguring modular robots since the 1990s, Prof. Yim's ModLab has produced Polybot, SMORES-EP, ModQuad, the Guinness-recognized Piccolissimo (world's smallest self-powered flying robot), Variable Topology Trusses, and the newest CHAMPS modular manipulator. He is a Fellow of the National Academy of Inventors and an IEEE Fellow, and has co-founded multiple startups out of his lab. He brings senior leadership and long-term perspective to the workshop.",
       "photo": "assets/images/speakers/mark-yim.jpg",
       "url": "https://www.grasp.upenn.edu/people/mark-yim/"
     },
@@ -175,7 +175,7 @@
       "name": "Prof. David Saldana",
       "title": "Associate Professor, Department of Computer Science and Engineering",
       "affiliation": "Lehigh University, USA",
-      "bio": "Leads SwarmsLab, focusing on coordinating swarms of modular robots and aerial manipulation of flexible objects for real-world tasks. Recipient of an NSF CAREER Award.",
+      "bio": "Dr. Saldana leads SwarmsLab at Lehigh, developing modular aerial robots such as H-ModQuad that reconfigure mid-flight and cooperate to manipulate flexible loads. He earned his Ph.D. from the Federal University of Minas Gerais (2017) and was previously a postdoc at Penn's GRASP Lab. He holds an NSF CAREER Award and ONR funding for resilient multi-robot systems used in environmental monitoring, disaster response, and construction.",
       "photo": "assets/images/speakers/david-saldana.jpg",
       "url": "https://davidsaldana.co/"
     },
@@ -183,7 +183,7 @@
       "name": "Dr. Nikos Tsagarakis",
       "title": "Senior Researcher (Tenured), Principal Investigator, Humanoids and Human Centered Mechatronics (HHCM)",
       "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
-      "bio": "Leads the HHCM research line at IIT, developing compliant actuators and humanoid and hybrid robotic platforms spanning legged locomotion and autonomous manipulation.",
+      "bio": "Prof. Tsagarakis leads the HHCM research line at IIT, where his team has developed the compliant humanoids COMAN and WALK-MAN, the hybrid wheeled-legged CENTAURO platform, and the configurable construction robot CONCERT, which he coordinates as an EU-funded project. He has authored over 450 papers, holds 16 patents, and serves as Senior Editor of IEEE/ASME Transactions on Mechatronics.",
       "photo": "assets/images/speakers/nikos-tsagarakis.jpg",
       "url": "https://www.iit.it/en-US/people-details/-/people/nikos-tsagarakis"
     },
@@ -191,7 +191,7 @@
       "name": "Prof. Sam Kriegman",
       "title": "Assistant Professor of Computer Science, Mechanical Engineering, and Chemical & Biological Engineering",
       "affiliation": "Northwestern University, USA",
-      "bio": "Known for creating xenobots, the first AI-designed living organisms. AI2050 Fellow and Cozzarelli Prize recipient, researching general theories of embodied life and intelligence.",
+      "bio": "Prof. Kriegman earned his Ph.D. in computer science from the University of Vermont (2020) and now leads a lab at Northwestern spanning computer science, mechanical engineering, and biology. He is best known for creating xenobots, the first AI-designed living organisms, and more recently for legged metamachines, evolvable modular robots that self-repair in the field. He holds an NSF CAREER Award, is a Schmidt Sciences AI2050 Fellow, and received the Cozzarelli Prize.",
       "photo": "assets/images/speakers/sam-kriegman.jpg",
       "url": "https://samkriegman.com/"
     }
