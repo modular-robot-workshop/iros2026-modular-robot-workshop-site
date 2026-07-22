@@ -45,8 +45,7 @@ The website features a photo of each invited speaker's own robot, shown right af
    Used with attribution to identify Nikos Tsagarakis's research for this workshop; contact IIT for reuse terms.
 
 4. `assets/images/speaker-robot-kriegman.jpg`  
-   Title: A xenobot, an AI-designed living organism  
-   Creator: Kriegman, Blackiston, Levin, Bongard (Sam Kriegman is an invited speaker for this workshop)  
-   Source: https://commons.wikimedia.org/wiki/File:Xenobot.jpg  
-   License: CC BY 4.0  
-   License URL: https://creativecommons.org/licenses/by/4.0/
+   Title: Legged Metamachine, an AI-evolved modular robot tested outdoors (2026)  
+   Creator: Sam Kriegman's lab, Northwestern Engineering (invited speaker for this workshop)  
+   Source: https://www.mccormick.northwestern.edu/news/articles/2026/03/evolved-robots-are-born-to-run-and-refuse-to-die/  
+   Used with attribution to identify Sam Kriegman's most recent research for this workshop; contact Northwestern Engineering for reuse terms.
