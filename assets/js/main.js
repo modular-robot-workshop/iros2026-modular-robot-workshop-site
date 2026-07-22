@@ -201,7 +201,28 @@ function renderData(data) {
     makePersonCard(person, { withPhoto: true })
   );
 
-  renderCards("organizer-list", data.organizers, (person) => makePersonCard(person));
+  const organizerGroupsEl = byId("organizer-groups");
+  if (organizerGroupsEl && Array.isArray(data.organizerGroups)) {
+    organizerGroupsEl.innerHTML = "";
+    data.organizerGroups.forEach((group) => {
+      const wrap = document.createElement("div");
+      wrap.className = "organizer-group";
+
+      const label = document.createElement("p");
+      label.className = "organizer-group-label";
+      label.textContent = group.region;
+      wrap.appendChild(label);
+
+      const row = document.createElement("div");
+      row.className = "cards-grid organizer-grid";
+      group.members.forEach((person) => {
+        row.appendChild(makePersonCard(person));
+      });
+      wrap.appendChild(row);
+
+      organizerGroupsEl.appendChild(wrap);
+    });
+  }
 
   const contactList = byId("contact-list");
   if (contactList && Array.isArray(data.contacts)) {

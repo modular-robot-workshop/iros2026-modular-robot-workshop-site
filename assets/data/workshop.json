@@ -196,51 +196,66 @@
       "url": "https://samkriegman.com/"
     }
   ],
-  "organizers": [
+  "organizerGroups": [
     {
-      "name": "Dr. Maolin Lei",
-      "title": "Lead Organizer — Postdoc Researcher",
-      "affiliation": "The University of Tokyo, Japan",
-      "email": "maolin.lei@outlook.com"
+      "region": "Asia",
+      "members": [
+        {
+          "name": "Dr. Maolin Lei",
+          "title": "Lead Organizer — Postdoc Researcher",
+          "affiliation": "The University of Tokyo, Japan",
+          "email": "maolin.lei@outlook.com"
+        },
+        {
+          "name": "Dr. Tin Lun Lam",
+          "title": "Co-Organizer — Associate Professor",
+          "affiliation": "Chinese University of Hong Kong, Shenzhen, China",
+          "email": "tllam@cuhk.edu.cn",
+          "url": "https://sites.google.com/site/lamtinlun"
+        }
+      ]
     },
     {
-      "name": "Dr. Luyang Zhao",
-      "title": "Co-Organizer — Assistant Professor, Electrical and Computer Engineering",
-      "affiliation": "Clemson University, USA",
-      "email": "luyangz@clemson.edu",
-      "url": "https://luyangzhao.github.io/"
+      "region": "Europe",
+      "members": [
+        {
+          "name": "Edoardo Romiti",
+          "title": "Co-Organizer — Postdoctoral Researcher, Humanoids and Human Centered Mechatronics (HHCM)",
+          "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
+          "email": "edoardo.romiti@iit.it"
+        },
+        {
+          "name": "Dr. Nikos Tsagarakis",
+          "title": "Co-Organizer — Senior Researcher (Tenured), Humanoids and Human Centered Mechatronics (HHCM)",
+          "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
+          "email": "nikos.tsagarakis@iit.it"
+        }
+      ]
     },
     {
-      "name": "Edoardo Romiti",
-      "title": "Co-Organizer — Postdoctoral Researcher, Humanoids and Human Centered Mechatronics (HHCM)",
-      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
-      "email": "edoardo.romiti@iit.it"
-    },
-    {
-      "name": "Dr. Nikos Tsagarakis",
-      "title": "Co-Organizer — Senior Researcher (Tenured), Humanoids and Human Centered Mechatronics (HHCM)",
-      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
-      "email": "nikos.tsagarakis@iit.it"
-    },
-    {
-      "name": "Dr. Tin Lun Lam",
-      "title": "Co-Organizer — Associate Professor",
-      "affiliation": "Chinese University of Hong Kong, Shenzhen, China",
-      "email": "tllam@cuhk.edu.cn",
-      "url": "https://sites.google.com/site/lamtinlun"
-    },
-    {
-      "name": "Nils Roede",
-      "title": "Co-Organizer — PhD Student, GRASP Lab / ModLab",
-      "affiliation": "University of Pennsylvania, USA",
-      "email": "roede@engineering.upenn.edu"
-    },
-    {
-      "name": "Prof. Mark Yim",
-      "title": "Advisor — Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
-      "affiliation": "University of Pennsylvania, USA",
-      "email": "yim@grasp.upenn.edu",
-      "url": "https://www.grasp.upenn.edu/people/mark-yim/"
+      "region": "North America",
+      "members": [
+        {
+          "name": "Dr. Luyang Zhao",
+          "title": "Co-Organizer — Assistant Professor, Electrical and Computer Engineering",
+          "affiliation": "Clemson University, USA",
+          "email": "luyangz@clemson.edu",
+          "url": "https://luyangzhao.github.io/"
+        },
+        {
+          "name": "Nils Roede",
+          "title": "Co-Organizer — PhD Student, GRASP Lab / ModLab",
+          "affiliation": "University of Pennsylvania, USA",
+          "email": "roede@engineering.upenn.edu"
+        },
+        {
+          "name": "Prof. Mark Yim",
+          "title": "Advisor — Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
+          "affiliation": "University of Pennsylvania, USA",
+          "email": "yim@grasp.upenn.edu",
+          "url": "https://www.grasp.upenn.edu/people/mark-yim/"
+        }
+      ]
     }
   ],
   "venueText": "The final room assignment, visa-letter process, and travel details will be synchronized with the official IROS 2026 website. The workshop requests tables for speakers with power access, two projectors and screens, a dedicated demo space for modular robot hardware, two additional monitors and desks for live demonstrations, wireless microphones for discussion, and poster boards for roughly 10 posters. Program times are listed in EDT (UTC-4)."
