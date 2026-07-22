@@ -7,7 +7,12 @@
   "format": "In-person",
   "submitUrl": "#",
   "mailingListUrl": "#",
-  "contactEmail": "maolin.lei@outlook.com",
+  "contacts": [
+    { "name": "Maolin Lei", "email": "maolin.lei@outlook.com" },
+    { "name": "Luyang Zhao", "email": "luyangz@clemson.edu" },
+    { "name": "Edoardo Romiti", "email": "edoardo.romiti@iit.it" },
+    { "name": "Nils Roede", "email": "roede@engineering.upenn.edu" }
+  ],
   "overview": "Modular reconfigurable robots (MRRs) offer a promising route toward adaptable robotic systems that can change morphology, workspace, and function to meet task and environmental demands. Recent advances in compliant mechanisms, soft modular structures, self-reconfiguration, task-driven morphology design, and learning-enabled control have expanded the scope of MRRs from laboratory prototypes to emerging real-world applications in construction, inspection, logistics, environmental monitoring, and search-and-rescue. Building on our IROS 2025 workshop on reconfigurable modular robots, this second edition focuses on the challenges and opportunities of taking modular robots from design concepts to practical deployment, bringing together researchers from robot design, control, planning, soft robotics, multi-robot systems, and application domains through invited talks, poster spotlights, live demonstrations, and a moderated panel discussion.",
   "focusAreas": [
     {
@@ -218,7 +223,8 @@
     {
       "name": "Edoardo Romiti",
       "title": "Co-Organizer — Postdoctoral Researcher, Humanoids and Human Centered Mechatronics (HHCM)",
-      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy"
+      "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
+      "email": "edoardo.romiti@iit.it"
     },
     {
       "name": "Dr. Nikos Tsagarakis",

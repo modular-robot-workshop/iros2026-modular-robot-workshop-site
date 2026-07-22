@@ -203,10 +203,17 @@ function renderData(data) {
 
   renderCards("organizer-list", data.organizers, (person) => makePersonCard(person));
 
-  const emailNode = byId("contact-email");
-  if (emailNode && data.contactEmail) {
-    emailNode.href = `mailto:${data.contactEmail}`;
-    emailNode.textContent = data.contactEmail;
+  const contactList = byId("contact-list");
+  if (contactList && Array.isArray(data.contacts)) {
+    contactList.innerHTML = "";
+    data.contacts.forEach((contact) => {
+      const li = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `mailto:${contact.email}`;
+      link.textContent = contact.email;
+      li.append(`${contact.name} — `, link);
+      contactList.appendChild(li);
+    });
   }
 
   setText("copyright-year", String(new Date().getFullYear()));
