@@ -116,8 +116,9 @@ p {
 .robot-gallery img {
   display: block;
   width: 100%;
-  height: 160px;
-  object-fit: cover;
+  height: 190px;
+  object-fit: contain;
+  background: #f3f1ea;
   border-radius: 4px;
 }
 

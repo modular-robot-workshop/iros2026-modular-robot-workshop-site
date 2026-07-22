@@ -26,10 +26,12 @@ Source: https://2026.ieee-iros.org/
 The website features a photo of each invited speaker's own robot, shown right after the hero section:
 
 1. `assets/images/speaker-robot-yim.jpg`  
-   Title: CHAMPS, a configurable, highly-articulated, multi-purpose modular snake manipulator (2026)  
+   Title: Variable Topology Truss, a physical reconfigurable modular truss robot (2022)  
    Creator: Mark Yim's ModLab, University of Pennsylvania (invited speaker for this workshop)  
-   Source: https://www.modlabupenn.org/design-and-kinematics-of-champs-a-configurable-highly-articulated-multi-purpose-snake/  
-   Used with attribution to identify Mark Yim's most recent research for this workshop; contact ModLab for reuse terms.
+   Source: https://www.modlabupenn.org/variable-topology-truss/  
+   Used with attribution to identify Mark Yim's research for this workshop; contact ModLab for reuse terms.
+   Note: CHAMPS (2026) is Mark Yim's newest project, but only a CAD rendering has been published for it so
+   far; this real hardware photo of the Variable Topology Truss was used instead.
 
 2. `assets/images/speaker-robot-saldana.jpg`  
    Title: Modular aerial robots cooperatively transporting a load  
