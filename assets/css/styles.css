@@ -28,6 +28,12 @@ a {
   color: var(--accent);
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .container {
   width: min(880px, calc(100% - 2.4rem));
   margin: 0 auto;
@@ -325,6 +331,13 @@ h3 {
   .organizer-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.venue-logo {
+  display: block;
+  width: 160px;
+  height: auto;
+  margin: 1.1rem 0 0.4rem;
 }
 
 .site-footer {

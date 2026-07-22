@@ -16,6 +16,11 @@ The following official faculty/profile headshots are used to identify confirmed 
 4. `assets/images/speakers/sam-kriegman.jpg` — Sam Kriegman, official Northwestern University McCormick School of Engineering faculty directory photo.
    Source: https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kriegman-sam.html
 
+## Conference Logo
+
+`assets/images/iros2026-pittsburgh-logo.png` — Official IROS 2026 (Pittsburgh) conference logo, used to identify the parent conference this workshop is part of.
+Source: https://2026.ieee-iros.org/
+
 ## Other Photos
 
 The website includes two photos under Creative Commons licenses:
