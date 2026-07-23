@@ -216,7 +216,7 @@ function renderData(data) {
       const row = document.createElement("div");
       row.className = "cards-grid organizer-grid";
       group.members.forEach((person) => {
-        row.appendChild(makePersonCard(person));
+        row.appendChild(makePersonCard(person, { withPhoto: true }));
       });
       wrap.appendChild(row);
 

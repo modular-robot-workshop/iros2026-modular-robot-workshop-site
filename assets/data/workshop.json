@@ -202,16 +202,18 @@
       "members": [
         {
           "name": "Dr. Maolin Lei",
-          "title": "Lead Organizer — Postdoc Researcher",
+          "title": "Postdoc Researcher",
           "affiliation": "The University of Tokyo, Japan",
-          "email": "maolin.lei@outlook.com"
+          "email": "maolin.lei@outlook.com",
+          "photo": "assets/images/organizers/maolin-lei.jpg"
         },
         {
           "name": "Prof. Tin Lun Lam",
           "title": "Associate Professor",
           "affiliation": "Chinese University of Hong Kong, Shenzhen, China",
           "email": "tllam@cuhk.edu.cn",
-          "url": "https://sites.google.com/site/lamtinlun"
+          "url": "https://sites.google.com/site/lamtinlun",
+          "photo": "assets/images/organizers/tin-lun-lam.jpg"
         }
       ]
     },
@@ -228,7 +230,8 @@
           "name": "Prof. Nikos Tsagarakis",
           "title": "Senior Researcher (Tenured), Humanoids and Human Centered Mechatronics (HHCM)",
           "affiliation": "Istituto Italiano di Tecnologia (IIT), Italy",
-          "email": "nikos.tsagarakis@iit.it"
+          "email": "nikos.tsagarakis@iit.it",
+          "photo": "assets/images/speakers/nikos-tsagarakis.jpg"
         }
       ]
     },
@@ -236,11 +239,12 @@
       "region": "North America",
       "members": [
         {
-          "name": "Dr. Luyang Zhao",
+          "name": "Prof. Luyang Zhao",
           "title": "Assistant Professor, Electrical and Computer Engineering",
           "affiliation": "Clemson University, USA",
           "email": "luyangz@clemson.edu",
-          "url": "https://luyangzhao.github.io/"
+          "url": "https://luyangzhao.github.io/",
+          "photo": "assets/images/organizers/luyang-zhao.jpg"
         },
         {
           "name": "Nils Roede",
@@ -253,6 +257,7 @@
           "title": "Advisor — Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
           "affiliation": "University of Pennsylvania, USA",
           "email": "yim@grasp.upenn.edu",
+          "photo": "assets/images/speakers/mark-yim.jpg",
           "url": "https://www.grasp.upenn.edu/people/mark-yim/"
         }
       ]

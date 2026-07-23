@@ -16,6 +16,23 @@ The following official faculty/profile headshots are used to identify confirmed 
 4. `assets/images/speakers/sam-kriegman.jpg` — Sam Kriegman, official Northwestern University McCormick School of Engineering faculty directory photo.
    Source: https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kriegman-sam.html
 
+## Organizer Photos
+
+The following photos identify organizing committee members (Nikos Tsagarakis and Mark Yim reuse their
+speaker headshots above):
+
+1. `assets/images/organizers/maolin-lei.jpg` — Maolin Lei, personal photo from his DRAGON Lab (University of Tokyo) profile.
+   Source: http://www.dragon.t.u-tokyo.ac.jp/team/
+
+2. `assets/images/organizers/tin-lun-lam.jpg` — Tin Lun Lam, official CUHK-Shenzhen CRAI Lab faculty profile photo.
+   Source: https://crai.cuhk.edu.cn/people/262
+
+3. `assets/images/organizers/luyang-zhao.jpg` — Luyang Zhao, profile photo from their personal academic website.
+   Source: https://luyangzhao.github.io/
+
+Edoardo Romiti and Nils Roede have no publicly available headshot at the time of writing, so their cards
+show no photo.
+
 ## Conference Logo
 
 `assets/images/iros2026-pittsburgh-logo.png` — Official IROS 2026 (Pittsburgh) conference logo, used to identify the parent conference this workshop is part of.
