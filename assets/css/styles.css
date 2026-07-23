@@ -379,6 +379,41 @@ h3 {
   margin-bottom: 0.7rem;
 }
 
+.organizer-rows {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.person-card--row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  padding: 1.1rem 0;
+}
+
+.person-card--row .person-photo {
+  flex-shrink: 0;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 0;
+}
+
+.person-card--row .person-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.person-card--row .person-content h3 {
+  min-height: 0;
+}
+
+.person-card--row .person-title,
+.person-card--row .person-affiliation,
+.person-card--row .person-bio {
+  max-width: 60ch;
+}
+
 .organizer-group {
   margin-top: 1.8rem;
 }

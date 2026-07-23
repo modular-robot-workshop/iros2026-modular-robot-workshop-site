@@ -39,9 +39,9 @@ function makeCard(title, body = "", extra = "") {
   return card;
 }
 
-function makePersonCard(person, { withPhoto = false } = {}) {
+function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
   const card = document.createElement("article");
-  card.className = "card person-card";
+  card.className = layout === "row" ? "card person-card person-card--row" : "card person-card";
 
   if (withPhoto && person.photo) {
     const img = document.createElement("img");
@@ -52,29 +52,32 @@ function makePersonCard(person, { withPhoto = false } = {}) {
     card.appendChild(img);
   }
 
+  const content = document.createElement("div");
+  content.className = "person-content";
+
   const heading = document.createElement("h3");
   heading.textContent = person.name;
-  card.appendChild(heading);
+  content.appendChild(heading);
 
   if (person.title) {
     const title = document.createElement("p");
     title.className = "person-title";
     title.textContent = person.title;
-    card.appendChild(title);
+    content.appendChild(title);
   }
 
   if (person.affiliation) {
     const affiliation = document.createElement("p");
     affiliation.className = "person-affiliation";
     affiliation.textContent = person.affiliation;
-    card.appendChild(affiliation);
+    content.appendChild(affiliation);
   }
 
   if (person.bio) {
     const bio = document.createElement("p");
     bio.className = "person-bio";
     bio.textContent = person.bio;
-    card.appendChild(bio);
+    content.appendChild(bio);
   }
 
   if (person.email || person.url) {
@@ -101,8 +104,10 @@ function makePersonCard(person, { withPhoto = false } = {}) {
       links.appendChild(profileLink);
     }
 
-    card.appendChild(links);
+    content.appendChild(links);
   }
+
+  card.appendChild(content);
 
   return card;
 }
@@ -214,9 +219,9 @@ function renderData(data) {
       wrap.appendChild(label);
 
       const row = document.createElement("div");
-      row.className = "cards-grid organizer-grid";
+      row.className = "organizer-rows";
       group.members.forEach((person) => {
-        row.appendChild(makePersonCard(person, { withPhoto: true }));
+        row.appendChild(makePersonCard(person, { withPhoto: true, layout: "row" }));
       });
       wrap.appendChild(row);
 
