@@ -30,8 +30,10 @@ speaker headshots above):
 3. `assets/images/organizers/luyang-zhao.jpg` — Luyang Zhao, profile photo from their personal academic website.
    Source: https://luyangzhao.github.io/
 
-Edoardo Romiti and Nils Roede have no publicly available headshot at the time of writing, so their cards
-show no photo.
+4. `assets/images/organizers/nils-roede.jpg` — Nils Roede, headshot provided directly by the organizers.
+
+Edoardo Romiti has no publicly available headshot at the time of writing (IIT's Scientilla photo
+endpoint and the Generative Bionics site both blocked automated access), so his card shows no photo.
 
 ## Conference Logo
 
