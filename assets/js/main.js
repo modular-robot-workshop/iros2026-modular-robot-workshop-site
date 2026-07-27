@@ -180,6 +180,7 @@ function renderData(data) {
   setText("event-format", data.format);
 
   setLink("submit-link", data.submitUrl);
+  setLink("cfp-submit-link", data.submitUrl);
   setLink("mailing-link", data.mailingListUrl);
 
   setText("overview-text", data.overview);

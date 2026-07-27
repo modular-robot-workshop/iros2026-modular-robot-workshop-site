@@ -5,7 +5,7 @@
   "eventDateDisplay": "September 27, 2026 (IROS workshop day, pending final conference schedule)",
   "location": "IROS 2026, Pittsburgh, PA, USA (room to be announced)",
   "format": "In-person",
-  "submitUrl": "#",
+  "submitUrl": "https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/Modular_Robots",
   "mailingListUrl": "#",
   "contacts": [
     { "name": "Maolin Lei", "email": "maolin.lei@outlook.com" },
@@ -32,32 +32,23 @@
       "description": "A platform connecting academia, industry, and technology developers to share insights and identify future collaboration opportunities."
     }
   ],
-  "cfpIntro": "We invite contributions on theory, methods, and systems for modular reconfigurable robots, including both mature deployments and well-scoped early-stage ideas. Extended abstracts, position papers, and poster/demo proposals are all welcome, especially submissions that bring or showcase live modular robot hardware and clearly state assumptions, limitations, and expected real-world impact.",
+  "cfpIntro": "We welcome research contributions across a broad spectrum, including original research, preliminary findings, and conceptual proposals. All submissions will be peer-reviewed based on their relevance and technical merit. The workshop will focus on modular robots, covering the following topics, but not limited to:",
   "topics": [
-    "Self-reconfiguration and morphology planning",
-    "Compliant mechanisms and soft modular structures",
-    "Task-driven morphology design",
-    "Topology-aware motion planning and control",
-    "Learning-enabled and morphology-conditioned control",
-    "Perception and state estimation for modular assemblies",
-    "Benchmarking, reliability, and reproducibility",
-    "Field deployment: construction, inspection, logistics, environmental monitoring, search-and-rescue"
+    "Design principles and development of modular robotic systems",
+    "Control strategies for modular reconfigurable robots",
+    "Motion planning approaches for modular reconfigurable robots",
+    "Applications of modular robotic systems across various domains"
   ],
   "submissionTypes": [
     {
-      "type": "Poster + Demo Proposal",
-      "requirement": "1-page summary plus an optional 2-3 minute video link.",
-      "note": "Include hardware setup, floor-space requirements, and safety notes; live modular robot demos are encouraged."
+      "type": "Paper for Extended Abstract",
+      "requirement": "Extended abstract of up to 4 pages, following the IEEE IROS conference format.",
+      "note": "Videos and demonstration proposals are encouraged as supplementary materials. Accepted papers will be presented through 5-minute spotlight talks, and with the authors' consent, abstracts will be published on the workshop website."
     },
     {
-      "type": "Extended Abstract",
-      "requirement": "2 pages (excluding references), PDF format.",
-      "note": "State problem, method, evaluation plan, and limitations."
-    },
-    {
-      "type": "Position Paper",
-      "requirement": "2 pages (excluding references), perspective-focused.",
-      "note": "Identify open technical bottlenecks and concrete community directions for real-world deployment."
+      "type": "Poster Presentation",
+      "requirement": "A0 size, printer size pending on the IROS official requirement.",
+      "note": "Hardware demonstrations and robotic system exhibitions related to the posters are strongly encouraged."
     }
   ],
   "reviewCriteria": [
