@@ -16,6 +16,9 @@ The following official faculty/profile headshots are used to identify confirmed 
 4. `assets/images/speakers/sam-kriegman.jpg` — Sam Kriegman, official Northwestern University McCormick School of Engineering faculty directory photo.
    Source: https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kriegman-sam.html
 
+5. `assets/images/speakers/wei-wang.jpg` — Wei Wang, official profile photo from his academic website.
+   Source: https://sites.mit.edu/weiwang/
+
 ## Organizer Photos
 
 The following photos identify organizing committee members (Nikos Tsagarakis and Mark Yim reuse their

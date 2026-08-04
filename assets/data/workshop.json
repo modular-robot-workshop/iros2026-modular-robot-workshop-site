@@ -187,7 +187,11 @@
       "url": "https://samkriegman.com/"
     },
     {
-      "name": "Wei Wang",
+      "name": "Prof. Wei Wang",
+      "title": "Assistant Professor of Mechanical Engineering, Director of the Marine Robotics Lab",
+      "affiliation": "University of Wisconsin–Madison, USA",
+      "bio": "Prof. Wang designs and controls autonomous robots for complex environments, with a particular focus on aquatic systems. His work explores unconventional and bio-inspired robots, aquatic locomotion, sensing, control, and collective behavior, with applications in aquatic monitoring, ocean exploration, underwater construction, urban transportation, and climate change solutions.",
+      "photo": "assets/images/speakers/wei-wang.jpg",
       "url": "https://scholar.google.com/citations?user=vdBpX4cAAAAJ&hl=en"
     }
   ],
