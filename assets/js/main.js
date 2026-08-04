@@ -45,7 +45,7 @@ function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
 
   if (withPhoto && person.photo) {
     const img = document.createElement("img");
-    img.className = "person-photo";
+    img.className = `person-photo${person.photoVariant ? ` person-photo--${person.photoVariant}` : ""}`;
     img.src = person.photo;
     img.alt = person.name;
     img.loading = "lazy";
