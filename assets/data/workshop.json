@@ -185,6 +185,10 @@
       "bio": "Prof. Kriegman earned his Ph.D. in computer science from the University of Vermont (2020) and now leads a lab at Northwestern spanning computer science, mechanical engineering, and biology. He is best known for creating xenobots, the first AI-designed living organisms, and more recently for legged metamachines, evolvable modular robots that self-repair in the field. He holds an NSF CAREER Award, is a Schmidt Sciences AI2050 Fellow, and received the Cozzarelli Prize.",
       "photo": "assets/images/speakers/sam-kriegman.jpg",
       "url": "https://samkriegman.com/"
+    },
+    {
+      "name": "Wei Wang",
+      "url": "https://scholar.google.com/citations?user=vdBpX4cAAAAJ&hl=en"
     }
   ],
   "organizerGroups": [
