@@ -44,12 +44,24 @@ function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
   card.className = layout === "row" ? "card person-card person-card--row" : "card person-card";
 
   if (withPhoto && person.photo) {
+    const photoFrame = person.photoVariant
+      ? document.createElement("span")
+      : null;
+    if (photoFrame) {
+      photoFrame.className = `person-photo-frame person-photo-frame--${person.photoVariant}`;
+    }
+
     const img = document.createElement("img");
-    img.className = `person-photo${person.photoVariant ? ` person-photo--${person.photoVariant}` : ""}`;
+    img.className = "person-photo";
     img.src = person.photo;
     img.alt = person.name;
     img.loading = "lazy";
-    card.appendChild(img);
+    if (photoFrame) {
+      photoFrame.appendChild(img);
+      card.appendChild(photoFrame);
+    } else {
+      card.appendChild(img);
+    }
   }
 
   const content = document.createElement("div");
