@@ -370,8 +370,8 @@ h3 {
 }
 
 .person-photo {
-  width: 68px;
-  height: 68px;
+  width: 108px;
+  height: 108px;
   border-radius: 50%;
   object-fit: cover;
   object-position: top center;
@@ -396,8 +396,8 @@ h3 {
 
 .person-card--row .person-photo {
   flex-shrink: 0;
-  width: 76px;
-  height: 76px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 0;
 }
 
