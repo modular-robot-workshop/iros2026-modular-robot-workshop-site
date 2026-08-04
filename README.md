@@ -2,6 +2,8 @@
 
 Static, Git-friendly workshop website scaffold.
 
+Website is hosted [here](https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/).
+
 ## Project Structure
 
 - `index.html` -> page structure
