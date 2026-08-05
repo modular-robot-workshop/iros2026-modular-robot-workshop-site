@@ -408,8 +408,8 @@ h3 {
 .person-card--row .person-photo-frame--zoom {
   flex-shrink: 0;
   display: block;
-  width: 148px;
-  height: 148px;
+  width: 132px;
+  height: 132px;
   overflow: hidden;
   border-radius: 50%;
 }
