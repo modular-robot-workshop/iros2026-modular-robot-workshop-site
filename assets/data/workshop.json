@@ -193,6 +193,14 @@
       "bio": "Prof. Wang designs and controls autonomous robots for complex environments, with a particular focus on aquatic systems. His work explores unconventional and bio-inspired robots, aquatic locomotion, sensing, control, and collective behavior, with applications in aquatic monitoring, ocean exploration, underwater construction, urban transportation, and climate change solutions.",
       "photo": "assets/images/speakers/wei-wang.jpg",
       "url": "https://scholar.google.com/citations?user=vdBpX4cAAAAJ&hl=en"
+    },
+    {
+      "name": "Prof. Kirstin Hagelskjaer Petersen",
+      "title": "Associate Professor, School of Electrical and Computer Engineering, Aref and Manon Lahham Faculty Fellow",
+      "affiliation": "Cornell University, USA",
+      "bio": "Prof. Petersen studies collective robotic intelligence inspired by ants, bees, and termites. Her research spans collective robotic construction, human–swarm interaction, soft robot collectives, biological swarms, and bio-hybrid collectives, combining hardware and software co-development with the design of shared environments.",
+      "photo": "assets/images/speakers/kirstin-petersen.jpg",
+      "url": "https://www.duffield.cornell.edu/people/kirstin-hagelskjaer-petersen/"
     }
   ],
   "organizerGroups": [

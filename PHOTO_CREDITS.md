@@ -19,6 +19,10 @@ The following official faculty/profile headshots are used to identify confirmed 
 5. `assets/images/speakers/wei-wang.jpg` — Wei Wang, official profile photo from his academic website.
    Source: https://sites.mit.edu/weiwang/
 
+6. `assets/images/speakers/kirstin-petersen.jpg` — Kirstin Hagelskjaer Petersen, official Cornell University
+   Duffield Engineering faculty profile photo.
+   Source: https://www.duffield.cornell.edu/people/kirstin-hagelskjaer-petersen/
+
 ## Organizer Photos
 
 The following photos identify organizing committee members (Nikos Tsagarakis and Mark Yim reuse their
