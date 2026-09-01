@@ -308,6 +308,21 @@ h3 {
   font-size: 0.92rem;
 }
 
+.date-value {
+  line-height: 1.5;
+}
+
+.date-previous {
+  color: #b42318;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+}
+
+.date-current {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .tag-list {
   margin: 0.8rem 0 0;
   padding: 0;

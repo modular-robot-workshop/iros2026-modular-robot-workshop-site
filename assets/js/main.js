@@ -39,6 +39,40 @@ function makeCard(title, body = "", extra = "") {
   return card;
 }
 
+function makeDateCard(item) {
+  const card = document.createElement("article");
+  card.className = "card date-card";
+
+  const heading = document.createElement("h3");
+  heading.textContent = item.label;
+  card.appendChild(heading);
+
+  const date = document.createElement("p");
+  date.className = "date-value";
+
+  if (item.previousDate) {
+    const previousDate = document.createElement("del");
+    previousDate.className = "date-previous";
+    previousDate.textContent = item.previousDate;
+    date.appendChild(previousDate);
+    date.appendChild(document.createTextNode(" "));
+  }
+
+  const currentDate = document.createElement("span");
+  currentDate.className = "date-current";
+  currentDate.textContent = item.date;
+  date.appendChild(currentDate);
+  card.appendChild(date);
+
+  if (item.note) {
+    const note = document.createElement("p");
+    note.textContent = item.note;
+    card.appendChild(note);
+  }
+
+  return card;
+}
+
 function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
   const card = document.createElement("article");
   card.className = layout === "row" ? "card person-card person-card--row" : "card person-card";
@@ -209,7 +243,7 @@ function renderData(data) {
 
   renderSimpleList("criteria-list", data.reviewCriteria);
 
-  renderCards("dates-list", data.keyDates, (item) => makeCard(item.label, item.date, item.note));
+  renderCards("dates-list", data.keyDates, makeDateCard);
 
   renderCards("schedule-list", data.schedule, (slot) =>
     makeCard(`${slot.time} - ${slot.title}`, slot.description, slot.speaker || "")
