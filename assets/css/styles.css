@@ -313,13 +313,14 @@ h3 {
 }
 
 .date-previous {
-  color: #b42318;
-  text-decoration-color: currentColor;
+  color: var(--ink);
+  text-decoration-color: #b42318;
   text-decoration-thickness: 2px;
 }
 
-.date-current {
-  color: var(--ink);
+.date-current,
+.date-status {
+  color: #b42318;
   font-weight: 600;
 }
 

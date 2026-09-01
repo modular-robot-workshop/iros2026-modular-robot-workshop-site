@@ -62,6 +62,15 @@ function makeDateCard(item) {
   currentDate.className = "date-current";
   currentDate.textContent = item.date;
   date.appendChild(currentDate);
+
+  if (item.status) {
+    const status = document.createElement("span");
+    status.className = "date-status";
+    status.textContent = `(${item.status})`;
+    date.appendChild(document.createTextNode(" "));
+    date.appendChild(status);
+  }
+
   card.appendChild(date);
 
   if (item.note) {
