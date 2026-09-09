@@ -96,9 +96,9 @@
     },
     {
       "time": "09:10-09:40",
-      "title": "Invited Talk I",
+      "title": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)",
       "description": "Collective robotic construction and swarm intelligence inspired by social insects.",
-      "speaker": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)"
+      "speaker": ""
     },
     {
       "time": "09:40-10:00",
@@ -108,21 +108,21 @@
     },
     {
       "time": "10:00-10:30",
-      "title": "Invited Talk II",
+      "title": "Prof. David Saldana, Lehigh University",
       "description": "Coordinating swarms of modular robots for practical, real-world tasks.",
-      "speaker": "Prof. David Saldana, Lehigh University"
+      "speaker": ""
     },
     {
       "time": "10:30-11:00",
-      "title": "Invited Talk III",
+      "title": "Prof. Mark Yim, University of Pennsylvania",
       "description": "Modular embodiment and self-reconfiguration: from lab prototypes to deployable systems.",
-      "speaker": "Prof. Mark Yim, University of Pennsylvania"
+      "speaker": ""
     },
     {
       "time": "11:00-11:30",
-      "title": "Invited Talk IV",
+      "title": "Prof. Sam Kriegman, Northwestern University",
       "description": "Evolving and growing embodied intelligence in modular and biological systems.",
-      "speaker": "Prof. Sam Kriegman, Northwestern University"
+      "speaker": ""
     },
     {
       "time": "11:30-11:55",
@@ -144,15 +144,15 @@
     },
     {
       "time": "14:25-14:55",
-      "title": "Invited Talk V",
+      "title": "Prof. Nikos Tsagarakis, Istituto Italiano di Tecnologia",
       "description": "Compliant actuation and mechatronic design for humanoid and hybrid modular platforms.",
-      "speaker": "Prof. Nikos Tsagarakis, Istituto Italiano di Tecnologia"
+      "speaker": ""
     },
     {
       "time": "14:55-15:25",
-      "title": "Invited Talk VI",
+      "title": "Prof. Wei Wang, University of Wisconsin–Madison",
       "description": "Bio-inspired aquatic robots: locomotion, sensing, and collective behavior underwater.",
-      "speaker": "Prof. Wei Wang, University of Wisconsin–Madison"
+      "speaker": ""
     },
     {
       "time": "15:25-15:50",
