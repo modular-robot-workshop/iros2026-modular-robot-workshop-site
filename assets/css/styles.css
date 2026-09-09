@@ -388,6 +388,43 @@ h3 {
   font-size: 0.88rem;
 }
 
+.person-talk {
+  margin: 0.7rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--line);
+}
+
+.person-talk-title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+  font-size: 0.88rem;
+}
+
+.person-talk-toggle {
+  margin: 0.5rem 0 0;
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--ink);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.person-talk-abstract {
+  margin: 0.5rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.person-talk-abstract.is-collapsed {
+  display: none;
+}
+
 .person-links {
   margin: 0.6rem 0 0;
   font-size: 0.86rem;

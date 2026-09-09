@@ -135,6 +135,40 @@ function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
     content.appendChild(bio);
   }
 
+  if (person.talkTitle || person.talkAbstract) {
+    const talkWrap = document.createElement("div");
+    talkWrap.className = "person-talk";
+
+    if (person.talkTitle) {
+      const talkTitle = document.createElement("p");
+      talkTitle.className = "person-talk-title";
+      talkTitle.textContent = `Talk: ${person.talkTitle}`;
+      talkWrap.appendChild(talkTitle);
+    }
+
+    if (person.talkAbstract) {
+      const talkAbstract = document.createElement("p");
+      talkAbstract.className = "person-talk-abstract is-collapsed";
+      talkAbstract.textContent = person.talkAbstract;
+
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "person-talk-toggle";
+      toggle.textContent = "Show abstract";
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.addEventListener("click", () => {
+        const isCollapsed = talkAbstract.classList.toggle("is-collapsed");
+        toggle.textContent = isCollapsed ? "Show abstract" : "Hide abstract";
+        toggle.setAttribute("aria-expanded", String(!isCollapsed));
+      });
+
+      talkWrap.appendChild(toggle);
+      talkWrap.appendChild(talkAbstract);
+    }
+
+    content.appendChild(talkWrap);
+  }
+
   if (person.email || person.url) {
     const links = document.createElement("p");
     links.className = "person-links";
