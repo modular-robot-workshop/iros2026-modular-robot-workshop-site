@@ -97,7 +97,7 @@
     {
       "time": "09:10-09:40",
       "title": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)",
-      "description": "Collective robotic construction and swarm intelligence inspired by social insects.",
+      "description": "\"Embodied Coordination in Modular Robot Collectives\" — In this talk, I will showcase how physical interactions can enable coordination in collectives of simple robotic modules. I will present work on microrobot collectives where self-organizing behaviors emerge from magnetic and fluid-mediated interactions, as well as our newest work on shape morphing robots that coordinate through opportunistic entanglement. Together, these systems illustrate an approach to modular robotics in which morphology, mechanics, and environmental interactions become integral parts of collective control.",
       "speaker": ""
     },
     {
@@ -109,7 +109,7 @@
     {
       "time": "10:00-10:30",
       "title": "Prof. David Saldana, Lehigh University",
-      "description": "Coordinating swarms of modular robots for practical, real-world tasks.",
+      "description": "\"Beyond Rigid-Body Flight: Reconfigurable Aerial Robots\" — Most aerial manipulation research has focused on transporting rigid payloads, yet many real-world tasks involve flexible and deformable objects. This talk presents recent advances in aerial reconfiguration, spanning cable-based interaction, the manipulation of flexible materials, and the emerging concept of flying surfaces, large deformable structures controlled by teams of aerial robots. I will discuss how adaptive control, distributed coordination, and learning-based methods enable robots to estimate unknown physical properties, safely interact with deformable materials, and control both motion and shape during flight. Together, these capabilities move aerial robotics beyond rigid-body manipulation toward a future where robot teams can transport, bend, and actively shape the physical world.",
       "speaker": ""
     },
     {
@@ -120,8 +120,8 @@
     },
     {
       "time": "11:00-11:30",
-      "title": "Prof. Sam Kriegman, Northwestern University",
-      "description": "Evolving and growing embodied intelligence in modular and biological systems.",
+      "title": "Prof. Wei Wang, University of Wisconsin–Madison",
+      "description": "Bio-inspired aquatic robots: locomotion, sensing, and collective behavior underwater.",
       "speaker": ""
     },
     {
@@ -150,8 +150,8 @@
     },
     {
       "time": "14:55-15:25",
-      "title": "Prof. Wei Wang, University of Wisconsin–Madison",
-      "description": "Bio-inspired aquatic robots: locomotion, sensing, and collective behavior underwater.",
+      "title": "Prof. Sam Kriegman, Northwestern University",
+      "description": "\"Evolving Reconfigurable Robots and Organisms\" — In this talk I will describe two species of reconfigurable modular robots that have been, and are being, evolved in my lab. The first exhibits agile legged locomotion in the wild and sustains major injuries. The other is made of living cells and can reproduce kinematically.",
       "speaker": ""
     },
     {
