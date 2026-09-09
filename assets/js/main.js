@@ -142,14 +142,23 @@ function makePersonCard(person, { withPhoto = false, layout = "column" } = {}) {
     if (person.talkTitle) {
       const talkTitle = document.createElement("p");
       talkTitle.className = "person-talk-title";
-      talkTitle.textContent = `Talk: ${person.talkTitle}`;
+
+      const label = document.createElement("strong");
+      label.textContent = "Title: ";
+      talkTitle.appendChild(label);
+      talkTitle.appendChild(document.createTextNode(person.talkTitle));
+
       talkWrap.appendChild(talkTitle);
     }
 
     if (person.talkAbstract) {
       const talkAbstract = document.createElement("p");
       talkAbstract.className = "person-talk-abstract is-collapsed";
-      talkAbstract.textContent = person.talkAbstract;
+
+      const label = document.createElement("strong");
+      label.textContent = "Abstract: ";
+      talkAbstract.appendChild(label);
+      talkAbstract.appendChild(document.createTextNode(person.talkAbstract));
 
       const toggle = document.createElement("button");
       toggle.type = "button";

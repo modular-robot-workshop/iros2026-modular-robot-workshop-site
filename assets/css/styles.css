@@ -288,6 +288,10 @@ h3 {
   padding: 1rem 0;
 }
 
+.schedule-list .card p {
+  white-space: pre-line;
+}
+
 .card {
   padding-top: 0.9rem;
   border-top: 1px solid var(--line);
