@@ -89,85 +89,85 @@
   ],
   "schedule": [
     {
-      "time": "09:00-09:10",
+      "time": "09:00-09:15",
       "title": "Opening Remarks",
       "description": "Welcome and introduction to the workshop.",
       "speaker": "Organizing committee"
     },
     {
-      "time": "09:10-09:40",
+      "time": "09:15-09:45",
       "title": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)",
       "description": "Title: Embodied Coordination in Modular Robot Collectives.\nAbstract: In this talk, I will showcase how physical interactions can enable coordination in collectives of simple robotic modules. I will present work on microrobot collectives where self-organizing behaviors emerge from magnetic and fluid-mediated interactions, as well as our newest work on shape morphing robots that coordinate through opportunistic entanglement. Together, these systems illustrate an approach to modular robotics in which morphology, mechanics, and environmental interactions become integral parts of collective control.",
       "speaker": ""
     },
     {
-      "time": "09:40-10:00",
-      "title": "Coffee Break",
-      "description": "Networking and informal technical discussions.",
-      "speaker": ""
-    },
-    {
-      "time": "10:00-10:30",
+      "time": "09:45-10:15",
       "title": "Prof. David Saldana, Lehigh University",
       "description": "Title: Beyond Rigid-Body Flight: Reconfigurable Aerial Robots.\nAbstract: Most aerial manipulation research has focused on transporting rigid payloads, yet many real-world tasks involve flexible and deformable objects. This talk presents recent advances in aerial reconfiguration, spanning cable-based interaction, the manipulation of flexible materials, and the emerging concept of flying surfaces, large deformable structures controlled by teams of aerial robots. I will discuss how adaptive control, distributed coordination, and learning-based methods enable robots to estimate unknown physical properties, safely interact with deformable materials, and control both motion and shape during flight. Together, these capabilities move aerial robotics beyond rigid-body manipulation toward a future where robot teams can transport, bend, and actively shape the physical world.",
       "speaker": ""
     },
     {
-      "time": "10:30-11:00",
+      "time": "10:15-11:15",
+      "title": "Coffee Break (Poster)",
+      "description": "Official IROS 2026 workshop-day break, shared across all workshops. Posters stay up for informal viewing and discussion.",
+      "speaker": ""
+    },
+    {
+      "time": "11:15-11:45",
       "title": "Prof. Mark Yim, University of Pennsylvania",
       "description": "Modular embodiment and self-reconfiguration: from lab prototypes to deployable systems.",
       "speaker": ""
     },
     {
-      "time": "11:00-11:30",
+      "time": "11:45-12:15",
       "title": "Prof. Wei Wang, University of Wisconsin–Madison",
       "description": "Bio-inspired aquatic robots: locomotion, sensing, and collective behavior underwater.",
       "speaker": ""
     },
     {
-      "time": "11:30-11:55",
-      "title": "Paper Presentation (Morning)",
-      "description": "Five lightning presentations (3–5 min each) from accepted paper and poster authors.",
-      "speaker": "Selected authors"
-    },
-    {
-      "time": "11:55-13:25",
+      "time": "12:15-13:45",
       "title": "Lunch Break",
       "description": "",
       "speaker": ""
     },
     {
-      "time": "13:25-14:25",
+      "time": "13:45-14:45",
       "title": "Live Demo + Poster Session",
       "description": "Hands-on demonstrations and interactive poster discussions with presenters.",
       "speaker": "All accepted contributors"
     },
     {
-      "time": "14:25-14:55",
+      "time": "14:45-15:15",
       "title": "Prof. Nikos Tsagarakis, Istituto Italiano di Tecnologia",
       "description": "Compliant actuation and mechatronic design for humanoid and hybrid modular platforms.",
       "speaker": ""
     },
     {
-      "time": "14:55-15:25",
+      "time": "15:15-16:15",
+      "title": "Coffee Break (Poster)",
+      "description": "Official IROS 2026 workshop-day break, shared across all workshops. Posters stay up for informal viewing and discussion.",
+      "speaker": ""
+    },
+    {
+      "time": "16:15-16:45",
       "title": "Prof. Sam Kriegman, Northwestern University",
       "description": "Title: Evolving Reconfigurable Robots and Organisms.\nAbstract: In this talk I will describe two species of reconfigurable modular robots that have been, and are being, evolved in my lab. The first exhibits agile legged locomotion in the wild and sustains major injuries. The other is made of living cells and can reproduce kinematically.",
       "speaker": ""
     },
     {
-      "time": "15:25-15:50",
-      "title": "Paper Presentation (Afternoon)",
+      "time": "16:45-17:10",
+      "title": "Paper Presentation I",
       "description": "Five lightning presentations (3–5 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
     {
-      "time": "15:50-16:35",
-      "title": "Panel Discussion",
-      "description": "From prototypes to deployable systems: bottlenecks and opportunities in modular robotics.",
-      "speaker": "Invited speakers and organizers"
+      "time": "17:10-17:35",
+      "title": "Paper Presentation II",
+      "description": "Five lightning presentations (3–5 min each) from accepted paper and poster authors.",
+      "speaker": "Selected authors"
     },
     {
-      "time": "16:35-16:50",
+      "time": "17:35-17:50",
       "title": "Community Roadmap + Closing",
       "description": "Action items on benchmarks, open-source efforts, and collaborations.",
       "speaker": "Organizers and attendees"
