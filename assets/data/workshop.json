@@ -89,10 +89,16 @@
   ],
   "schedule": [
     {
-      "time": "09:00-09:15",
+      "time": "09:00-09:05",
       "title": "Opening Remarks",
       "description": "Welcome and introduction to the workshop.",
       "speaker": "Organizing committee"
+    },
+    {
+      "time": "09:05-09:15",
+      "title": "Paper Presentation III",
+      "description": "Two lightning presentations (4–5 min each) from accepted paper and poster authors.",
+      "speaker": "Selected authors"
     },
     {
       "time": "09:15-09:45",
