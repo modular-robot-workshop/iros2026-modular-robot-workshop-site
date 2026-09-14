@@ -95,37 +95,37 @@
       "speaker": "Organizing committee"
     },
     {
-      "time": "09:05-09:15",
-      "title": "Paper Presentation III",
-      "description": "Three lightning presentations (3 min each) from accepted paper and poster authors.",
+      "time": "09:05-09:20",
+      "title": "Paper Presentation I",
+      "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
     {
-      "time": "09:15-09:45",
+      "time": "09:20-09:50",
       "title": "Prof. Wei Wang, University of Wisconsin–Madison",
       "description": "Bio-inspired aquatic robots: locomotion, sensing, and collective behavior underwater.",
       "speaker": ""
     },
     {
-      "time": "09:45-10:15",
+      "time": "09:50-10:20",
       "title": "Prof. Mark Yim, University of Pennsylvania",
       "description": "Modular embodiment and self-reconfiguration: from lab prototypes to deployable systems.",
       "speaker": ""
     },
     {
-      "time": "10:15-11:15",
+      "time": "10:20-11:20",
       "title": "Coffee Break (Poster)",
       "description": "Official IROS 2026 workshop-day break, shared across all workshops. Posters stay up for informal viewing and discussion.",
       "speaker": ""
     },
     {
-      "time": "11:15-11:45",
+      "time": "11:20-11:50",
       "title": "Prof. Sam Kriegman, Northwestern University",
       "description": "Title: Evolving Reconfigurable Robots and Organisms.\nAbstract: In this talk I will describe two species of reconfigurable modular robots that have been, and are being, evolved in my lab. The first exhibits agile legged locomotion in the wild and sustains major injuries. The other is made of living cells and can reproduce kinematically.",
       "speaker": ""
     },
     {
-      "time": "11:45-14:00",
+      "time": "11:50-14:00",
       "title": "Lunch Break",
       "description": "",
       "speaker": ""
@@ -144,7 +144,7 @@
     },
     {
       "time": "15:00-15:15",
-      "title": "Paper Presentation I",
+      "title": "Paper Presentation II",
       "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
@@ -162,7 +162,7 @@
     },
     {
       "time": "16:45-17:00",
-      "title": "Paper Presentation II",
+      "title": "Paper Presentation III",
       "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
