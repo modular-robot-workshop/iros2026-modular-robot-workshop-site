@@ -73,7 +73,9 @@
     },
     {
       "label": "Notification",
-      "date": "September 15, 2026",
+      "date": "September 16, 2026",
+      "previousDate": "September 15, 2026",
+      "status": "Delayed",
       "note": "Acceptance decisions sent by email."
     },
     {
