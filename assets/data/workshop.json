@@ -80,7 +80,7 @@
     },
     {
       "label": "Final Materials Due",
-      "date": "September 20, 2026",
+      "date": "September 23, 2026",
       "note": "Final poster PDFs, demo details, and optional slides."
     },
     {
@@ -99,7 +99,7 @@
     {
       "time": "09:00-09:15",
       "title": "Paper Presentation I",
-      "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
+      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
     {
@@ -147,7 +147,7 @@
     {
       "time": "15:00-15:15",
       "title": "Paper Presentation II",
-      "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
+      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
     {
@@ -165,7 +165,7 @@
     {
       "time": "16:45-17:00",
       "title": "Paper Presentation III",
-      "description": "Five lightning presentations (3 min each) from accepted paper and poster authors.",
+      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
       "speaker": "Selected authors"
     },
     {
