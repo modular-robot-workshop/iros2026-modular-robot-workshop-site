@@ -111,7 +111,7 @@
     {
       "time": "09:45-10:15",
       "title": "Prof. Mark Yim, University of Pennsylvania",
-      "description": "Modular embodiment and self-reconfiguration: from lab prototypes to deployable systems.",
+      "description": "Title: Getting to useful modular self-reconfigurable robots through efficiency.\nAbstract: The past 30 years has seen many advancements in software and hardware designs of modular robot systems, reconfiguration methods and mechanisms, control algorithms and demonstrations. Despite that, we have yet to see any modular self-reconfigurable robot systems used in any real applications outside of research and academia. Why is that? I argue that the current modular approach trades off versatility for utility and efficiency. We'll talk about approaches for achieving higher performance modular self-reconfigurable systems.",
       "speaker": ""
     },
     {
@@ -181,8 +181,8 @@
       "title": "Asa Whitney Professor of Mechanical Engineering, Director of the GRASP Lab and ModLab",
       "affiliation": "University of Pennsylvania, USA",
       "bio": "A pioneer of self-reconfiguring modular robots since the 1990s, Prof. Yim's ModLab has produced Polybot, SMORES-EP, ModQuad, the Guinness-recognized Piccolissimo (world's smallest self-powered flying robot), Variable Topology Trusses, and the newest CHAMPS modular manipulator. He is a Fellow of the National Academy of Inventors and an IEEE Fellow, and has co-founded multiple startups out of his lab. He brings senior leadership and long-term perspective to the workshop.",
-      "talkTitle": "To be announced",
-      "talkAbstract": "",
+      "talkTitle": "Getting to useful modular self-reconfigurable robots through efficiency.",
+      "talkAbstract": "The past 30 years has seen many advancements in software and hardware designs of modular robot systems, reconfiguration methods and mechanisms, control algorithms and demonstrations. Despite that, we have yet to see any modular self-reconfigurable robot systems used in any real applications outside of research and academia. Why is that? I argue that the current modular approach trades off versatility for utility and efficiency. We'll talk about approaches for achieving higher performance modular self-reconfigurable systems.",
       "photo": "assets/images/speakers/mark-yim.jpg",
       "url": "https://www.grasp.upenn.edu/people/mark-yim/"
     },
