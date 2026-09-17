@@ -78,10 +78,15 @@
 
       <section class="robot-gallery-section container reveal" aria-label="Robots from our invited speakers">
         <div class="robot-gallery-video">
-          <video autoplay muted loop playsinline preload="metadata">
+          <video id="gallery-video" autoplay muted loop playsinline preload="metadata">
             <source src="assets/videos/robot-gallery.mp4" type="video/mp4" />
             Your browser does not support embedded video.
           </video>
+          <button type="button" id="gallery-next-btn" class="gallery-next-btn" aria-label="Next robot clip">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
         </div>
       </section>
 

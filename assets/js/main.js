@@ -260,6 +260,23 @@ function initRevealAnimation() {
   });
 }
 
+function initGalleryVideoControls() {
+  const video = byId("gallery-video");
+  const nextBtn = byId("gallery-next-btn");
+  if (!video || !nextBtn) {
+    return;
+  }
+
+  // Start times (seconds) of each clip in assets/videos/robot-gallery.mp4.
+  const clipStarts = [0, 16, 34, 48, 68, 89, 110, 129];
+
+  nextBtn.addEventListener("click", () => {
+    const next = clipStarts.find((t) => t > video.currentTime + 0.25);
+    video.currentTime = next !== undefined ? next : 0;
+    video.play();
+  });
+}
+
 async function loadData() {
   const response = await fetch(DATA_PATH);
   if (!response.ok) {
@@ -346,6 +363,7 @@ function renderData(data) {
 
 async function main() {
   initRevealAnimation();
+  initGalleryVideoControls();
 
   try {
     const data = await loadData();
