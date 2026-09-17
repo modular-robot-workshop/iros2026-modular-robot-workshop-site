@@ -76,3 +76,12 @@ The website features a photo of each invited speaker's own robot, shown right af
    Creator: Sam Kriegman's lab, Northwestern Engineering (invited speaker for this workshop)  
    Source: https://www.mccormick.northwestern.edu/news/articles/2026/03/evolved-robots-are-born-to-run-and-refuse-to-die/  
    Used with attribution to identify Sam Kriegman's most recent research for this workshop; contact Northwestern Engineering for reuse terms.
+
+## Robot Gallery Video
+
+`assets/videos/robot-gallery.mp4` is a compilation of short robot demo clips. Added clip:
+
+- Snail-inspired modular robot swarm climbing a stone step in the wild (00:16-00:34 in the compilation).
+  Creator: Tin Lun Lam's Freeform Robotics / CRAI Lab, CUHK-Shenzhen (workshop organizer).
+  Source: "[Nature Communications] Snail-inspired robotic swarms", https://www.youtube.com/watch?v=aNw92VlH3rA (clip taken from 5:46-6:04).
+  Used with attribution to identify Tin Lun Lam's research for this workshop; contact Freeform Robotics for reuse terms.
