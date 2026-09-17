@@ -268,7 +268,7 @@ function initGalleryVideoControls() {
   }
 
   // Start times (seconds) of each clip in assets/videos/robot-gallery.mp4.
-  const clipStarts = [0, 16, 34, 48, 68, 89, 110, 129, 171];
+  const clipStarts = [0, 16, 34, 48, 68, 86, 107, 128, 147];
 
   nextBtn.addEventListener("click", () => {
     const next = clipStarts.find((t) => t > video.currentTime + 0.25);

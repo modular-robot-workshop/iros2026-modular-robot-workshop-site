@@ -86,7 +86,7 @@ The website features a photo of each invited speaker's own robot, shown right af
   Source: "[Nature Communications] Snail-inspired robotic swarms", https://www.youtube.com/watch?v=aNw92VlH3rA (clip taken from 5:46-6:04).
   Used with attribution to identify Tin Lun Lam's research for this workshop; contact Freeform Robotics for reuse terms.
 
-- Reconfigurable modular manipulator (Morphologies A/B/C) polishing panels, hardware experiments (02:51-03:09 in the compilation).
+- Reconfigurable modular manipulator (Morphologies A/B/C) polishing panels, hardware experiments (01:08-01:26 in the compilation, right after the HHCM Lab clip).
   Creator: Maolin Lei (workshop organizer); hardware experiments conducted at IIT's HHCM lab.
   Source: "A Task-Driven, Planner-in-Loop Computational Design Framework for Modular Manipulators", https://youtu.be/2KI7wOQjXAo (clips taken from 4:01-4:07, 4:28-4:34, 4:52-4:58).
   Used with attribution to identify Maolin Lei's research for this workshop; contact the author for reuse terms.
