@@ -23,6 +23,9 @@ The following official faculty/profile headshots are used to identify confirmed 
    Duffield Engineering faculty profile photo.
    Source: https://www.duffield.cornell.edu/people/kirstin-hagelskjaer-petersen/
 
+7. `assets/images/speakers/steven-ceron.jpg` — Steven Ceron, official Michigan Robotics / SAM Lab team photo.
+   Source: https://samlab.robotics.umich.edu/team
+
 ## Organizer Photos
 
 The following photos identify organizing committee members (Nikos Tsagarakis and Mark Yim reuse their

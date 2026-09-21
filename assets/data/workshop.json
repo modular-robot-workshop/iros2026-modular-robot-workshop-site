@@ -127,15 +127,21 @@
       "speaker": ""
     },
     {
-      "time": "11:45-14:00",
+      "time": "11:45-12:15",
+      "title": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)",
+      "description": "Title: Embodied Coordination in Modular Robot Collectives.\nAbstract: In this talk, I will showcase how physical interactions can enable coordination in collectives of simple robotic modules. I will present work on microrobot collectives where self-organizing behaviors emerge from magnetic and fluid-mediated interactions, as well as our newest work on shape morphing robots that coordinate through opportunistic entanglement. Together, these systems illustrate an approach to modular robotics in which morphology, mechanics, and environmental interactions become integral parts of collective control.",
+      "speaker": ""
+    },
+    {
+      "time": "12:15-14:00",
       "title": "Lunch Break",
       "description": "",
       "speaker": ""
     },
     {
       "time": "14:00-14:30",
-      "title": "Prof. Kirstin Hagelskjaer Petersen, Cornell University (online)",
-      "description": "Title: Embodied Coordination in Modular Robot Collectives.\nAbstract: In this talk, I will showcase how physical interactions can enable coordination in collectives of simple robotic modules. I will present work on microrobot collectives where self-organizing behaviors emerge from magnetic and fluid-mediated interactions, as well as our newest work on shape morphing robots that coordinate through opportunistic entanglement. Together, these systems illustrate an approach to modular robotics in which morphology, mechanics, and environmental interactions become integral parts of collective control.",
+      "title": "Prof. Steven Ceron, University of Michigan",
+      "description": "Title: To be announced.",
       "speaker": ""
     },
     {
@@ -235,6 +241,16 @@
       "talkAbstract": "In this talk, I will showcase how physical interactions can enable coordination in collectives of simple robotic modules. I will present work on microrobot collectives where self-organizing behaviors emerge from magnetic and fluid-mediated interactions, as well as our newest work on shape morphing robots that coordinate through opportunistic entanglement. Together, these systems illustrate an approach to modular robotics in which morphology, mechanics, and environmental interactions become integral parts of collective control.",
       "photo": "assets/images/speakers/kirstin-petersen.jpg",
       "url": "https://www.duffield.cornell.edu/people/kirstin-hagelskjaer-petersen/"
+    },
+    {
+      "name": "Prof. Steven Ceron",
+      "title": "Assistant Professor, Robotics; Director, Self-Assembly and Modularity (SAM) Lab",
+      "affiliation": "University of Michigan, USA",
+      "bio": "Prof. Ceron directs the Self-Assembly and Modularity (SAM) Lab at Michigan Robotics, working on swarm robotics, microrobotics, and self-reconfigurable modular robot swarms. He earned his Ph.D. in mechanical engineering at Cornell University and was a Distinguished Postdoctoral Fellow at MIT, where his work on microrobot collectives with reconfigurable morphologies and behaviors was published in Nature. His research spans the design, fabrication, and control of programmable self-organizing robot swarms across micro- and macro-scales, including for biomedical applications.",
+      "talkTitle": "To be announced",
+      "talkAbstract": "",
+      "photo": "assets/images/speakers/steven-ceron.jpg",
+      "url": "https://robotics.umich.edu/people/faculty/steven-ceron/"
     }
   ],
   "organizerGroups": [
