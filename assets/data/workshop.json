@@ -47,7 +47,7 @@
     },
     {
       "type": "Poster Presentation",
-      "requirement": "A0 size, printer size pending on the IROS official requirement.",
+      "requirement": "Up to 4 ft × 4 ft (approximately 122 cm × 122 cm); orientation is flexible as long as the poster stays within these maximum dimensions.",
       "note": "Hardware demonstrations and robotic system exhibitions related to the posters are strongly encouraged."
     }
   ],
@@ -141,7 +141,7 @@
     {
       "time": "14:00-14:30",
       "title": "Prof. Steven Ceron, University of Michigan",
-      "description": "Title: To be announced.",
+      "description": "Title: Programming Reconfigurable Robot Collectives Through Physical and Oscillatory Interactions.\nAbstract: Reconfigurable robot collectives must coordinate how their individual units move, interact, connect, deform, and reorganize to perform different functions. In this talk, I will discuss how controllable physical interactions and coupled oscillatory dynamics can be used to enable these behaviors across soft modular robots, mobile robot collectives, and magnetic microrobots. Through these systems, we show how local interactions can give rise to synchronization, locomotion, morphology changes, self-reconfiguration, navigation, and manipulation, and how swarmalator-based models can provide a common framework for controlling these collective behaviors. These approaches move us toward robot collectives that can adapt their morphology and function as their tasks and surrounding environments change.",
       "speaker": ""
     },
     {
@@ -247,8 +247,8 @@
       "title": "Assistant Professor, Robotics; Director, Synergetic Adaptive Machinas Lab (SAM Lab)",
       "affiliation": "University of Michigan, USA",
       "bio": "Prof. Ceron directs the Synergetic Adaptive Machinas Lab (SAM Lab) at Michigan Robotics, working on swarm robotics, microrobotics, and self-reconfigurable modular robot swarms. He earned his Ph.D. in mechanical engineering at Cornell University and was a Distinguished Postdoctoral Fellow at MIT. His research spans the design, fabrication, and control of programmable self-organizing robot swarms across micro- and macro-scales, including for biomedical applications.",
-      "talkTitle": "To be announced",
-      "talkAbstract": "",
+      "talkTitle": "Programming Reconfigurable Robot Collectives Through Physical and Oscillatory Interactions",
+      "talkAbstract": "Reconfigurable robot collectives must coordinate how their individual units move, interact, connect, deform, and reorganize to perform different functions. In this talk, I will discuss how controllable physical interactions and coupled oscillatory dynamics can be used to enable these behaviors across soft modular robots, mobile robot collectives, and magnetic microrobots. Through these systems, we show how local interactions can give rise to synchronization, locomotion, morphology changes, self-reconfiguration, navigation, and manipulation, and how swarmalator-based models can provide a common framework for controlling these collective behaviors. These approaches move us toward robot collectives that can adapt their morphology and function as their tasks and surrounding environments change.",
       "photo": "assets/images/speakers/steven-ceron.jpg",
       "url": "https://robotics.umich.edu/people/faculty/steven-ceron/"
     }
