@@ -16,6 +16,20 @@ function setLink(id, url) {
   }
 }
 
+function appendFormattedText(el, text) {
+  // Supports **bold** segments; everything else is inserted as plain text.
+  text.split(/(\*\*[^*]+\*\*)/g).forEach((part) => {
+    const boldMatch = part.match(/^\*\*([^*]+)\*\*$/);
+    if (boldMatch) {
+      const strong = document.createElement("strong");
+      strong.textContent = boldMatch[1];
+      el.appendChild(strong);
+    } else if (part) {
+      el.appendChild(document.createTextNode(part));
+    }
+  });
+}
+
 function makeCard(title, body = "", extra = "") {
   const card = document.createElement("article");
   card.className = "card";
@@ -26,13 +40,13 @@ function makeCard(title, body = "", extra = "") {
 
   if (body) {
     const paragraph = document.createElement("p");
-    paragraph.textContent = body;
+    appendFormattedText(paragraph, body);
     card.appendChild(paragraph);
   }
 
   if (extra) {
     const more = document.createElement("p");
-    more.textContent = extra;
+    appendFormattedText(more, extra);
     card.appendChild(more);
   }
 
