@@ -99,7 +99,7 @@
     {
       "time": "09:00-09:15",
       "title": "Paper Presentation I",
-      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
+      "description": "Three 5-minute lightning talks:\n• Conflict-Free Distributed Pathfinding for Collective Construction Using a Roadmap — Mario Jerez, Colin Hoang, Kenneth Cheung, Maria Gini, Irina Kostitsyna\n• Which Module Shapes Can Pivot? — Liyao Chang\n• ModSim: An Open-Source Framework for Dynamic Modular Robot Simulation — Angelina Wong, Akshay Ram Panyam, Nils Roede, Mark Yim",
       "speaker": "Selected authors"
     },
     {
@@ -153,7 +153,7 @@
     {
       "time": "15:00-15:15",
       "title": "Paper Presentation II",
-      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
+      "description": "Three 5-minute lightning talks:\n• Robotic Budding: From Homogeneous Cells to Diverse Morphologies in Physical Self-Reproduction — Siyuan Zhang, Junyan Liu, Wanglin He, Hod Lipson\n• TeCoBot: A Modular Tensegrity-Based Continuum Robot for Task-Adaptive Reconfiguration — Mahmud Hasan Saikot, Sydney Spiegel, Sudheera Akalanka Kariyawasam, Andrew Q. Stefka, Josh Chrisler, Jianguo Zhao\n• Modular Self-Reconfigurable Continuum Robots for Adaptive Morphology and Loco-Manipulation — Yilin Cai, Zhefeng Huang, Yue Chen",
       "speaker": "Selected authors"
     },
     {
@@ -171,7 +171,7 @@
     {
       "time": "16:45-17:00",
       "title": "Paper Presentation III",
-      "description": "Three lightning presentations (5 min each) from accepted paper and poster authors.",
+      "description": "Three 5-minute lightning talks:\n• One Robot, Multiple Tasks: A Modular Approach to Construction Robotics — Alessio Lovato, Edoardo Romiti, Luca Muratore, Nikolaos G. Tsagarakis\n• A Reconfigurable Isopod-Inspired Robot for Legged Locomotion and Whole-Body Conglobation — Felipe A. Borja\n• Recompositional Robotics: Cross-Domain, Open-set, and Lifelong Modularity Beyond Morphology — Steven Swanbeck, Jonathan Salfity, Corrie Van Sice, Robert Blake Anderson, Mitch Pryor",
       "speaker": "Selected authors"
     },
     {
